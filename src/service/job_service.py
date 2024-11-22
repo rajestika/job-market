@@ -7,7 +7,7 @@ def add_job(data):
     desc = data.get("desc", None)
     gaji = data.get("gaji", None)
 
-    if(util.check_missing_input([name, desc, gaji])):
+    if(util.check_none_in_array([name, desc, gaji])):
         return {
             "message":"Please input your data"
         }
@@ -28,19 +28,13 @@ def application(data):
     profile_id = data.get("user_id", None)
     job_id = data.get("job_id", None)
 
-    if(util.check_missing_input([profile_id, job_id])):
+    if(util.check_none_in_array([profile_id, job_id])):
         return {
             "message":"Please input your data"
         }
-
-    dict_user_id = profile.get_user_id()
-    dict_job_id = job.get_job_id()
-
-    user_ids = [id["id"] for id in dict_user_id]
-    job_ids = [id["id"] for id in dict_job_id]
-
-    if(profile_id not in user_ids or job_id not in job_ids):
-        return{
+    
+    if(util.check_none_in_array(profile.get_user_by_user_id_and_get_job_by_job_id(profile_id, job_id))):
+        return {
             "message":"User_id or job_id not registered yet"
         }
 

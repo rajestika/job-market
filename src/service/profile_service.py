@@ -6,7 +6,7 @@ def login(data):
     username = data.get("username", None)
     password = data.get("password", None)
     
-    if(util.check_missing_input([username, password])):
+    if(util.check_none_in_array([username, password])):
         return {
             "message":"Please input username and password"
         }
@@ -37,7 +37,7 @@ def register(data):
     username = data.get("username", None)
     password = data.get("password", None)
     
-    if(util.check_missing_input([name, username, password])):
+    if(util.check_none_in_array([name, username, password])):
         return {
             "message":"Please input your data"
         }

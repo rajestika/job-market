@@ -17,3 +17,5 @@ INSERT_APPLICATION_QUERY = "INSERT INTO profile_job (profile_id, job_id) VALUES 
 FETCH_JOB_NAME_BY_JOB_ID_QUERY = "SELECT j.name from job j where j.id = %s"
 
 FETCH_JOB_ID_QUERY = "SELECT j.id from job j"
+
+FETCH_PROFILE_NAME_BY_PROFILE_ID_QUERY = "SELECT p.name from profile p where p.id = %s"
