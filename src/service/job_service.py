@@ -35,13 +35,14 @@ def application(data):
     
     if(util.check_none_in_array(profile.get_user_by_user_id_and_get_job_by_job_id(profile_id, job_id))):
         return {
-            "message":"User_id or job_id not registered yet"
+            "message":"User_id or job_id is not registered"
         }
-
+    
     job_ids = job.get_job_ids_by_profile_id(profile_id)
 
-    if(job_id in job_ids["id"]):
-        return {
+    for id in job_ids:
+        if job_id == id["job_id"]:
+           return {
             "message":"Job already applied"
         }
     
