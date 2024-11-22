@@ -1,4 +1,5 @@
 from apps.src.repository import job, profile
+from apps.src.util import util
 import json
 
 def add_job(data):
@@ -6,7 +7,7 @@ def add_job(data):
     desc = data.get("desc", None)
     gaji = data.get("gaji", None)
 
-    if(name==None or desc==None or gaji==None):
+    if(util.check_missing_input([name, desc, gaji])):
         return {
             "message":"Please input your data"
         }
@@ -27,7 +28,7 @@ def application(data):
     profile_id = data.get("user_id", None)
     job_id = data.get("job_id", None)
 
-    if(profile_id==None or job_id==None):
+    if(util.check_missing_input([profile_id, job_id])):
         return {
             "message":"Please input your data"
         }
@@ -56,7 +57,7 @@ def application(data):
         for application in job_user:
             if application["name"] == job_name["name"]:
                 return{
-                    "message":all_user_id
+                    "message":"Job already applied"
                 }
         job.add_application(data)
         return {

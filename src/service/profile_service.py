@@ -1,11 +1,12 @@
 from apps.src.repository import profile
+from apps.src.util import util
 import json
 
 def login(data):
     username = data.get("username", None)
     password = data.get("password", None)
     
-    if(username==None or password==None):
+    if(util.check_missing_input([username, password])):
         return {
             "message":"Please input username and password"
         }
@@ -36,7 +37,7 @@ def register(data):
     username = data.get("username", None)
     password = data.get("password", None)
     
-    if(name==None or username==None or password==None):
+    if(util.check_missing_input([name, username, password])):
         return {
             "message":"Please input your data"
         }
