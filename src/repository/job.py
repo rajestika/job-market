@@ -36,3 +36,9 @@ def get_job_id():
 
     record = cursor.fetchall()
     return record
+
+def get_job_ids_by_profile_id(profile_id):
+    cursor.execute(sql_query.FETCH_JOB_IDS_BY_PROFILE_ID_QUERY, (profile_id,))
+
+    record = cursor.fetchall()
+    return record

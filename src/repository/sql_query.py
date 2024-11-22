@@ -19,3 +19,5 @@ FETCH_JOB_NAME_BY_JOB_ID_QUERY = "SELECT j.name from job j where j.id = %s"
 FETCH_JOB_ID_QUERY = "SELECT j.id from job j"
 
 FETCH_PROFILE_NAME_BY_PROFILE_ID_QUERY = "SELECT p.name from profile p where p.id = %s"
+
+FETCH_JOB_IDS_BY_PROFILE_ID_QUERY = "SELECT pj.job_id from profile_job pj where pj.profile_id = %s"

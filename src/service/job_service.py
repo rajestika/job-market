@@ -38,25 +38,14 @@ def application(data):
             "message":"User_id or job_id not registered yet"
         }
 
-    job_user = profile.get_job(profile_id)
+    job_ids = job.get_job_ids_by_profile_id(profile_id)
 
-    if(len(job_user) == 0):
-        job.add_application(data)
+    if(job_id in job_ids["id"]):
         return {
-            "message":"Application success"
+            "message":"Job already applied"
         }
-
-    if(len(job_user) != 0):
-        job_name = job.get_job_name(job_id)
-        for application in job_user:
-            if application["name"] == job_name["name"]:
-                return{
-                    "message":"Job already applied"
-                }
-        job.add_application(data)
-        return {
-            "message":"Application success"
-        }
-        
     
-    
+    job.add_application(data)
+    return {
+        "message":"Application success"
+    }
