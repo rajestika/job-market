@@ -13,7 +13,7 @@ def add_job(data):
 
     job_result = job.get_job(name)
 
-    if(job_result is not None):
+    if(job_result):
         return {
             "message":"Job already exist"
         }
