@@ -18,11 +18,10 @@ def add_job(data):
             "message":"Job already exist"
         }
     
-    if(job_result is None):
-        job.add_job(data)
-        return {
-            "message":"Job succesfully added"
-        }
+    job.add_job(data)
+    return {
+        "message":"Job succesfully added"
+    }
 
 def application(data):
     profile_id = data.get("user_id", None)
