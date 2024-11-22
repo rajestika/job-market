@@ -1,5 +1,5 @@
 from apps.src.main import cursor, connection
-import sql_query
+from apps.src.repository import sql_query
 
 def get_data_based_on_username(username):
     cursor.execute(sql_query.FETCH_PROFILE_BY_USERNAME_QUERY, (username,))

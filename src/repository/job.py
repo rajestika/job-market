@@ -1,5 +1,5 @@
 from apps.src.main import cursor, connection
-import sql_query
+from apps.src.repository import sql_query
 
 def get_job_list():
     cursor.execute(sql_query.FETCH_ALL_JOB_QUERY)
