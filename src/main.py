@@ -9,7 +9,7 @@ connection = psycopg2.connect(database="postgres", user="postgres", password="po
 cursor = connection.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
 
 from apps.src.controller.profile_controller import profile_blueprint
-app.register_blueprint(profile_blueprint)
-
 from apps.src.controller.job_controller import job_blueprint
-app.register_blueprint(job_blueprint)
+
+for blueprint in [profile_blueprint, job_blueprint]:
+    app.register_blueprint(blueprint)
