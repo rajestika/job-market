@@ -1,54 +1,38 @@
 from apps.src.main import cursor, connection
+import sql_query
 
 def get_job_list():
-    cursor.execute("""SELECT
-                   j.name as job_name,
-                   j.description as desc,
-                   j.gaji
+    cursor.execute(sql_query.FETCH_ALL_JOB)
 
-                   from job j""")
     record = cursor.fetchall()
     return record
 
 def get_job(job_name):
-    cursor.execute("""SELECT
-                   j.name,
-                   j.description as desc,
-                   j.gaji
+    cursor.execute(sql_query.FETCH_JOB_BY_JOB_NAME, (job_name,))
 
-                   from job j
-                   
-                   where j.name = %s""", (job_name,))
     record = cursor.fetchone()
     return record
 
 def add_job(data):
-    cursor.execute("INSERT INTO job (name, description, gaji) VALUES (%s, %s, %s)", 
-            (data["job_name"], data["desc"], data["gaji"]))
+    cursor.execute(sql_query.INSERT_JOB, (data["job_name"], data["desc"], data["gaji"]))
+    
     connection.commit()
     return
 
 def add_application(data):
-    cursor.execute("INSERT INTO profile_job (profile_id, job_id) VALUES (%s, %s)", 
-            (data["user_id"], data["job_id"]))
+    cursor.execute(sql_query.INSERT_APPLICATION, (data["user_id"], data["job_id"]))
+
     connection.commit()
     return
 
 def get_job_name(job_id):
-    cursor.execute("""SELECT
-                   j.name
-                
-                   from job j
-                   
-                   where j.id = %s""", (job_id,))
+    cursor.execute(sql_query.FETCH_JOB_NAME_BY_JOB_ID, (job_id,))
+    
     record = cursor.fetchone()
     return record
 
 def get_job_id():
-    cursor.execute("""SELECT
-                   j.id
-                
-                   from job j
-                   """)
+    cursor.execute(sql_query.FETCH_JOB_ID)
+
     record = cursor.fetchall()
     return record
