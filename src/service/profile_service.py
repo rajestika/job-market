@@ -36,8 +36,9 @@ def register(data):
     name = data.get("name", None)
     username = data.get("username", None)
     password = data.get("password", None)
+    is_hr = data.get("is_hr", None)
     
-    if(util.check_none_in_array([name, username, password])):
+    if(util.check_none_in_array([name, username, password, is_hr])):
         return {
             "message":"Please input your data"
         }

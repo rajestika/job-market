@@ -14,7 +14,7 @@ def get_job(profile_id):
     return record
 
 def add_new_data(data):
-    cursor.execute(sql_query.INSERT_PROFILE_QUERY, (data["name"], data["username"], data["password"]))
+    cursor.execute(sql_query.INSERT_PROFILE_QUERY, (data["name"], data["username"], data["password"], data["is_hr"]))
     
     connection.commit()
     return

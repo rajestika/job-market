@@ -2,7 +2,7 @@ FETCH_PROFILE_BY_USERNAME_QUERY = "SELECT p.id, p.name, p.username, p.password f
 
 FETCH_JOB_BY_PROFILE_ID_QUERY = "SELECT j.name, j.description as desc, j.gaji from job j join profile_job pj on j.id = pj.job_id where pj.profile_id = %s"
 
-INSERT_PROFILE_QUERY = "INSERT INTO profile (name, username, password) VALUES (%s, %s, %s)"
+INSERT_PROFILE_QUERY = "INSERT INTO profile (name, username, password, is_hr) VALUES (%s, %s, %s, %s)"
 
 FETCH_ALL_USER_ID_QUERY = "SELECT p.id from profile p"
 
