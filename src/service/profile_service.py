@@ -1,4 +1,4 @@
-from apps.src.repository import profile
+from apps.src.repository import profile, job
 from apps.src.util import util
 import json
 
@@ -22,6 +22,12 @@ def login(data):
         return {
                 "message":"Password incorrect"
             }
+    
+    if(username_result["is_hr"]):
+        number_of_new_applicants = job.get_number_of_new_applicants_by_hr_id(username_result["id"])
+        return{
+            "notification":f"{number_of_new_applicants['count']} new applicant(s) applied for your job"
+        }
     
     job_result = profile.get_job(username_result["id"])
     

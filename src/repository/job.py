@@ -42,3 +42,13 @@ def get_job_ids_by_profile_id(profile_id):
 
     record = cursor.fetchall()
     return record
+
+def get_number_of_new_applicants_by_hr_id(hr_id):
+    cursor.execute(sql_query.FETCH_NUMBER_OF_NEW_APPLICANTS_BY_HR_ID_QUERY, (hr_id,))
+
+    record = cursor.fetchone()
+
+    cursor.execute(sql_query.UPDATE_IS_NOTIFIED_TO_TRUE_BY_HR_ID_QUERY, (hr_id,))
+
+    connection.commit()
+    return record
