@@ -30,4 +30,8 @@ FETCH_JOB_AND_HR_NAME_BY_JOB_ID = "SELECT j.name, j.description, j.gaji, p.name 
 
 FETCH_APPLICANTS_BY_JOB_ID = "SELECT p.name, p.id from profile p join profile_job pj on p.id = pj.profile_id where pj.job_id = %s"
 
-UPDATE_STATUS_TO_IN_REVIEW_QUERY = "UPDATE profile_job  set status = 'In Review' where profile_id = %s and job_id = %s"
+UPDATE_STATUS_TO_IN_REVIEW_QUERY = "UPDATE profile_job set status = 'In Review' where job_id = %s and profile_id = %s"
+
+UPDATE_STATUS_TO_ACCEPTED_QUERY = "UPDATE profile_job set status = 'Accepted' where job_id = %s and profile_id = %s"
+
+UPDATE_STATUS_TO_REJECTED_QUERY = "UPDATE profile_job set status = 'Rejected' where job_id = %s and profile_id = %s"

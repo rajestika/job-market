@@ -70,3 +70,15 @@ def update_status_to_in_review(job_id, applicant_id):
 
     connection.commit()
     return
+
+def update_status_to_accepted(job_id, applicant_id):
+    cursor.execute(sql_query.UPDATE_STATUS_TO_ACCEPTED_QUERY, (job_id, applicant_id))
+
+    connection.commit()
+    return
+
+def update_status_to_rejected(job_id, applicant_id):
+    cursor.execute(sql_query.UPDATE_STATUS_TO_REJECTED_QUERY, (job_id, applicant_id))
+
+    connection.commit()
+    return

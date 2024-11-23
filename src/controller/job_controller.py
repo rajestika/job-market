@@ -32,3 +32,13 @@ def show_detail_job_id(job_id):
 def review(job_id, applicant_id):
     response = job_service.review_application(job_id, applicant_id)
     return response
+
+@job_blueprint.get("/jobs/<int:job_id>/applicant/<int:applicant_id>/accept")
+def accept(job_id, applicant_id):
+    response = job_service.accept_application(job_id, applicant_id)
+    return response
+
+@job_blueprint.get("/jobs/<int:job_id>/applicant/<int:applicant_id>/reject")
+def reject(job_id, applicant_id):
+    response = job_service.reject_application(job_id, applicant_id)
+    return response
