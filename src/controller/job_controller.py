@@ -22,3 +22,8 @@ def apply_job():
 
     response = job_service.application(data)
     return response
+
+@job_blueprint.get("/jobs/<int:job_id>")
+def show_detail_job_id(job_id):
+    response = job_service.job_details(job_id)
+    return response

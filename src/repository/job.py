@@ -52,3 +52,11 @@ def get_number_of_new_applicants_by_hr_id(hr_id):
 
     connection.commit()
     return record
+
+def get_job_detail_by_job_id(job_id):
+    cursor.execute(sql_query.FETCH_JOB_BY_AND_APPLICANTS_JOB_ID_QUERY, (job_id,))
+    job_record = cursor.fetchone()
+
+    cursor.execute(sql_query.FETCH_APPLICANTS_BY_JOB_ID, (job_id,))
+    applicants_record = cursor.fetchall()
+    return job_record, applicants_record

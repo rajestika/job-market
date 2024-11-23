@@ -50,3 +50,11 @@ def application(data):
     return {
         "message":"Application success"
     }
+
+def job_details(job_id):
+    job_record, applicants_record = job.get_job_detail_by_job_id(job_id)
+
+    return{
+        "Job information":job_record,
+        "Applicants":[applicant['name'] for applicant in applicants_record]
+    }

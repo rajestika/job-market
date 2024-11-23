@@ -25,3 +25,7 @@ FETCH_JOB_IDS_BY_PROFILE_ID_QUERY = "SELECT pj.job_id from profile_job pj where 
 FETCH_NUMBER_OF_NEW_APPLICANTS_BY_HR_ID_QUERY = "SELECT COUNT(*) from profile_job pj join job j on pj.job_id = j.id where j.hr_id = %s and pj.is_notified = false"
 
 UPDATE_IS_NOTIFIED_TO_TRUE_BY_HR_ID_QUERY = "UPDATE profile_job set is_notified = true from job j where profile_job.job_id = j.id and j.hr_id = %s"
+
+FETCH_JOB_BY_AND_APPLICANTS_JOB_ID_QUERY = "SELECT j.name, j.description, j.gaji, p.name as hr  from job j join profile p on j.hr_id = p.id where j.id = %s"
+
+FETCH_APPLICANTS_BY_JOB_ID = "SELECT p.name from profile p join profile_job pj on p.id = pj.profile_id where pj.job_id = %s"
