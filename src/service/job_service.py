@@ -52,9 +52,43 @@ def application(data):
     }
 
 def job_details(job_id):
-    job_record, applicants_record = job.get_job_detail_by_job_id(job_id)
+    job_record = job.get_job_and_hr_name(job_id)
+
+    if(util.check_none_in_array([job_record])):
+        return {
+            "message":"Job is not exist"
+        }
+    
+    applicants_record = job.get_applicants_by_job_id(job_id)
 
     return{
         "Job information":job_record,
-        "Applicants":[applicant['name'] for applicant in applicants_record]
+        "Applicants":[applicant["name"] for applicant in applicants_record]
+    }
+
+def review_application(job_id, applicant_id):
+    job_record = job.get_job_and_hr_name(job_id)
+
+    if(util.check_none_in_array([job_record])):
+        return {
+            "message":"Job is not exist"
+        }
+
+    applicants_record = job.get_applicants_by_job_id(job_id)
+
+    applicant_name = None
+
+    for applicant in applicants_record:
+        if(applicant["id"] == applicant_id):
+            applicant_name = applicant["name"]
+
+    if(applicant_name is None):
+        return {
+            "message":"Applicant is not exist"
+        }
+    
+    job.update_status_to_in_review(job_id, applicant_id)
+
+    return{
+        "message":f"Start reviewing {applicant_name}'s application for {job_record['name']} position"
     }

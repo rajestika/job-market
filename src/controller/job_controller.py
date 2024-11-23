@@ -27,3 +27,8 @@ def apply_job():
 def show_detail_job_id(job_id):
     response = job_service.job_details(job_id)
     return response
+
+@job_blueprint.get("/jobs/<int:job_id>/applicant/<int:applicant_id>/review")
+def review(job_id, applicant_id):
+    response = job_service.review_application(job_id, applicant_id)
+    return response
