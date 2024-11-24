@@ -65,20 +65,19 @@ def get_applicants_by_job_id(job_id):
     record = cursor.fetchall()
     return record
 
-def update_status_to_in_review(job_id, applicant_id):
-    cursor.execute(sql_query.UPDATE_STATUS_TO_IN_REVIEW_QUERY, (job_id, applicant_id))
+def update_application_status(job_id, applicant_id, job_status):
+    if(job_status == "review"):
+        cursor.execute(sql_query.UPDATE_STATUS_TO_IN_REVIEW_QUERY, (job_id, applicant_id))
 
-    connection.commit()
-    return
+        connection.commit()
+    
+    if(job_status == "accept"):
+        cursor.execute(sql_query.UPDATE_STATUS_TO_ACCEPTED_QUERY, (job_id, applicant_id))
 
-def update_status_to_accepted(job_id, applicant_id):
-    cursor.execute(sql_query.UPDATE_STATUS_TO_ACCEPTED_QUERY, (job_id, applicant_id))
+        connection.commit()
 
-    connection.commit()
-    return
+    if(job_status == "reject"):
+        cursor.execute(sql_query.UPDATE_STATUS_TO_REJECTED_QUERY, (job_id, applicant_id))
 
-def update_status_to_rejected(job_id, applicant_id):
-    cursor.execute(sql_query.UPDATE_STATUS_TO_REJECTED_QUERY, (job_id, applicant_id))
-
-    connection.commit()
+        connection.commit()
     return

@@ -1,8 +1,11 @@
 from flask import Flask
 import psycopg2
 import psycopg2.extras
+from apps.src.enum.enum import JobStatus, JobStatusConverter
 
 app = Flask(__name__)
+
+app.url_map.converters["JobStatus"] = JobStatusConverter
 
 connection = psycopg2.connect(database="postgres", user="postgres", password="postgres", host="localhost", port=5432)
 

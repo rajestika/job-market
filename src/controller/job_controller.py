@@ -1,6 +1,7 @@
 from flask import request, Blueprint
 from apps.src.repository import job
 from apps.src.service import job_service
+from apps.src.enum.enum import JobStatus
 
 job_blueprint = Blueprint("job_blueprint", __name__)
 
@@ -28,17 +29,7 @@ def show_detail_job_id(job_id):
     response = job_service.job_details(job_id)
     return response
 
-@job_blueprint.get("/jobs/<int:job_id>/applicant/<int:applicant_id>/review")
-def review(job_id, applicant_id):
-    response = job_service.review_application(job_id, applicant_id)
-    return response
-
-@job_blueprint.get("/jobs/<int:job_id>/applicant/<int:applicant_id>/accept")
-def accept(job_id, applicant_id):
-    response = job_service.accept_application(job_id, applicant_id)
-    return response
-
-@job_blueprint.get("/jobs/<int:job_id>/applicant/<int:applicant_id>/reject")
-def reject(job_id, applicant_id):
-    response = job_service.reject_application(job_id, applicant_id)
+@job_blueprint.get("/jobs/<int:job_id>/applicant/<int:applicant_id>/<JobStatus:job_status>")
+def review(job_id, applicant_id, job_status):
+    response = job_service.review_application(job_id, applicant_id, job_status)
     return response
