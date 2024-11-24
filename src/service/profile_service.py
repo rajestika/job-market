@@ -25,6 +25,9 @@ def login(data):
     
     if(username_result["is_hr"]):
         number_of_new_applicants = job.get_number_of_new_applicants_by_hr_id(username_result["id"])
+        
+        job.update_is_notified_to_true_by_hr_id(username_result["id"])
+        
         return{
             "notification":f"{number_of_new_applicants['count']} new applicant(s) applied for your job"
         }
