@@ -1,6 +1,5 @@
 from apps.src.repository import profile, job
 from apps.src.util import util
-import json
 
 def login(data):
     username = data.get("username", None)
@@ -34,12 +33,12 @@ def login(data):
     
     job_result = profile.get_job(username_result["id"])
     
-    return json.dumps({
+    return {
         "name":username_result["name"],
         "username":username_result["username"],
         "password":username_result["password"],
         "job_applied":job_result
-    }, indent=4)
+    }
 
 def register(data):
     name = data.get("name", None)

@@ -33,7 +33,7 @@ def application(data):
             "message":"Please input your data"
         }
     
-    if(util.check_none_in_array(profile.get_user_by_user_id_and_get_job_by_job_id(profile_id, job_id))):
+    if(util.check_none_in_array([profile.get_user_by_user_id(profile_id), profile.get_job_by_job_id(job_id)])):
         return {
             "message":"User_id or job_id is not registered"
         }
@@ -99,7 +99,6 @@ def review_application(job_id, applicant_id, job_status):
             "message":f"{applicant_name}'s application has been accepted for {job_record['name']} position"
         }
     
-    if(status == "reject"):
-        return{
-            "message":f"{applicant_name}'s application has been rejected for {job_record['name']} position"
-        }
+    return{
+        "message":f"{applicant_name}'s application has been rejected for {job_record['name']} position"
+    }

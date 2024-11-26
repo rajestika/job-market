@@ -25,11 +25,14 @@ def get_user_id():
     record = cursor.fetchall()
     return  record
 
-def get_user_by_user_id_and_get_job_by_job_id(profile_id, job_id):
+def get_user_by_user_id(profile_id):
     cursor.execute(sql_query.FETCH_PROFILE_NAME_BY_PROFILE_ID_QUERY, (profile_id,))
-    user_record = cursor.fetchone()
+    
+    record = cursor.fetchone()
+    return record
 
+def get_job_by_job_id(job_id):
     cursor.execute(sql_query.FETCH_JOB_NAME_BY_JOB_ID_QUERY, (job_id,))
-    job_record = cursor.fetchone()
+    record = cursor.fetchone()
 
-    return  [user_record, job_record]
+    return record
