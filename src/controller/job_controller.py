@@ -8,21 +8,29 @@ job_blueprint = Blueprint("job_blueprint", __name__)
 
 @job_blueprint.get("/jobs")
 def jobs():
-    response = make_response(job_service.job_list())
+    response = make_response({
+        "message":"request success",
+        "data":job_service.job_list()
+        }, 200)
     return response
 
 @job_blueprint.post("/jobs/add")
 def add_job():
     data = request.get_json()
 
-    response = make_response(job_service.add_job(data))
+    response = make_response({
+        "message":"job successfully added",
+        "data":job_service.add_job(data)
+        }, 201)
     return response
 
 @job_blueprint.post("/apply")
 def apply_job():
     data = request.get_json()
 
-    response = make_response(job_service.application(data))
+    response = make_response({
+        "message":job_service.application(data)
+        }, 201)
     return response
 
 @job_blueprint.get("/jobs/<int:job_id>")
@@ -32,7 +40,10 @@ def show_detail_job_id(job_id):
             "message":"job_id should not be null"
         }
     
-    response = make_response(job_service.job_details(job_id))
+    response = make_response({
+        "message":"request success",
+        "data":job_service.job_details(job_id)
+        }, 200)
     return response
 
 @job_blueprint.get("/jobs/<int:job_id>/applicant/<int:applicant_id>/<JobStatus:job_status>")
@@ -42,5 +53,7 @@ def review(job_id, applicant_id, job_status):
             "message":"job_id, applicant_id, or job_status should not be null"
         }
 
-    response = make_response(job_service.review_application(job_id, applicant_id, job_status))
+    response = make_response({
+        "message":job_service.review_application(job_id, applicant_id, job_status)
+        }, 200)
     return response
