@@ -14,12 +14,6 @@ def register_exception(app):
         response.status_code = 400
         return response
     
-    @app.errorhandler(exception.UsernameNotFound)
-    def handle_username_not_found(e):
-        response = jsonify({"message": str(e)})
-        response.status_code = 400
-        return response
-    
     @app.errorhandler(exception.PasswordIncorrect)
     def handle_password_incorrect(e):
         response = jsonify({"message": str(e)})

@@ -18,12 +18,10 @@ def add_job(data):
     job_result = job.get_job(name)
 
     if(job_result):
-        raise exception.DataAlreadyExist
+        raise exception.DataAlreadyExist("job already exist")
     
     job.add_job(data)
-    return {
-        "message":"Job succesfully added"
-    }, 200
+    return "Job succesfully added"
 
 def application(data):
     profile_id = data.get("user_id", None)
@@ -33,13 +31,13 @@ def application(data):
         raise exception.InputDataNull
     
     if(util.check_none_in_array([profile.get_user_by_user_id(profile_id), profile.get_job_by_job_id(job_id)])):
-        raise exception.DataNotFound
+        raise exception.DataNotFound("profile id or job id not found")
     
     job_ids = job.get_job_ids_by_profile_id(profile_id)
 
     for id in job_ids:
         if job_id == id["job_id"]:
-           raise exception.DataAlreadyExist
+           raise exception.DataAlreadyExist("job already applied")
     
     job.add_application(data)
     return "Application success"
@@ -48,7 +46,7 @@ def job_details(job_id):
     job_record = job.get_job_and_hr_name(job_id)
 
     if(job_record is None):
-        raise exception.DataNotFound
+        raise exception.DataNotFound("job not found")
     
     applicants_record = job.get_applicants_by_job_id(job_id)
 
@@ -61,14 +59,14 @@ def review_application(job_id, applicant_id, job_status):
     job_record = job.get_job_and_hr_name(job_id)
 
     if(job_record is None):
-        raise exception.DataNotFound
+        raise exception.DataNotFound("job not found")
 
     applicants_record = job.get_applicants_by_job_id(job_id)
 
     ids = [applicant["id"] for applicant in applicants_record]
 
     if(applicant_id not in ids):
-        raise exception.DataNotFound
+        raise exception.DataNotFound("applicant not found")
 
     status = job_status.value
 
@@ -78,7 +76,6 @@ def review_application(job_id, applicant_id, job_status):
 
     if(status == "review"):
         return f"Start reviewing {applicant_name}'s application for {job_record['name']} position"
-        
     
     if(status == "accept"):
         return f"{applicant_name}'s application has been accepted for {job_record['name']} position"

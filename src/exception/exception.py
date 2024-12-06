@@ -8,11 +8,6 @@ class InputDataNull(Exception):
         self.message = message
         super().__init__(message)
 
-class UsernameNotFound(Exception):
-    def __init__(self, message='username not found'):
-        self.message = message
-        super().__init__(message)
-
 class PasswordIncorrect(Exception):
     def __init__(self, message='password incorrect'):
         self.message = message

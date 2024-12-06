@@ -12,7 +12,7 @@ def login(data):
     username_result = profile.get_data_based_on_username(username)
 
     if(username_result is None):
-        raise exception.UsernameNotFound
+        raise exception.DataNotFound("username not found")
     
     if(password != username_result['password']):
         raise exception.PasswordIncorrect
@@ -45,7 +45,7 @@ def register(data):
     username_result = profile.get_data_based_on_username(username)
 
     if(username_result):
-        raise exception.DataAlreadyExist
+        raise exception.DataAlreadyExist("username already exist")
 
     profile.add_new_data(data)
 
