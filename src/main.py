@@ -1,8 +1,14 @@
 from flask import Flask
 import psycopg2
 import psycopg2.extras
+from apps.src.enum.enum import JobStatus, JobStatusConverter
+from apps.src.exception import exception_register
 
 app = Flask(__name__)
+
+app.url_map.converters["JobStatus"] = JobStatusConverter
+
+exception_register.register_exception(app)
 
 connection = psycopg2.connect(database="postgres", user="postgres", password="postgres", host="localhost", port=5432)
 
