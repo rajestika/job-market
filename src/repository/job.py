@@ -13,14 +13,14 @@ def get_job(job_name):
     record = cursor.fetchone()
     return record
 
-def add_job(data):
-    cursor.execute(sql_query.INSERT_JOB_QUERY, (data["job_name"], data["desc"], data["gaji"]))
+def add_job(data, current_user):
+    cursor.execute(sql_query.INSERT_JOB_QUERY, (current_user, data["job_name"], data["desc"], data["gaji"]))
     
     connection.commit()
     return
 
-def add_application(data):
-    cursor.execute(sql_query.INSERT_APPLICATION_QUERY, (data["user_id"], data["job_id"]))
+def add_application(data, current_user):
+    cursor.execute(sql_query.INSERT_APPLICATION_QUERY, (current_user, data["job_id"]))
 
     connection.commit()
     return

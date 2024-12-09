@@ -6,6 +6,8 @@ from apps.src.exception import exception_register
 
 app = Flask(__name__)
 
+app.config['SECRET_KEY'] = "mysecretkey123"
+
 app.url_map.converters["JobStatus"] = JobStatusConverter
 
 exception_register.register_exception(app)

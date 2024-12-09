@@ -13,8 +13,8 @@ def get_job(profile_id):
     record = cursor.fetchall()
     return record
 
-def add_new_data(data):
-    cursor.execute(sql_query.INSERT_PROFILE_QUERY, (data["name"], data["username"], data["password"], data["is_hr"]))
+def add_new_data(data, id):
+    cursor.execute(sql_query.INSERT_PROFILE_QUERY, (id, data["name"], data["username"], data["password"], data["is_hr"]))
     
     connection.commit()
     return
@@ -33,6 +33,12 @@ def get_user_by_user_id(profile_id):
 
 def get_job_by_job_id(job_id):
     cursor.execute(sql_query.FETCH_JOB_NAME_BY_JOB_ID_QUERY, (job_id,))
+    record = cursor.fetchone()
+
+    return record
+
+def get_profile_by_id(id):
+    cursor.execute(sql_query.FETCH_PROFILE_BY_UUID, (id,))
     record = cursor.fetchone()
 
     return record
