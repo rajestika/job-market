@@ -24,9 +24,14 @@ def login(data):
     
     job_result = profile.get_job(username_result["id"])
     
-    token = jwt.encode({
+    access_token = jwt.encode({
         'id':username_result["id"],
         "exp": datetime.utcnow() + timedelta(minutes = 30)
+    }, app.config["SECRET_KEY"])
+
+    refresh_token = jwt.encode({
+        'id':username_result["id"],
+        "exp": datetime.utcnow() + timedelta(days = 30)
     }, app.config["SECRET_KEY"])
 
     if(username_result["is_hr"]):
@@ -35,13 +40,15 @@ def login(data):
         job.update_is_notified_to_true_by_hr_id(username_result["id"])
         
         return {
-            "token":token,
+            "access_token":access_token,
+            "refresh_token":refresh_token,
             "name":username_result["name"],
             "notification":f"{number_of_new_applicants['count']} new applicants"
         }
     
     return {
-            "token":token,
+            "access_token":access_token,
+            "refresh_token":refresh_token,
             "name":username_result["name"],
             "job_applied":job_result
         }
@@ -66,3 +73,11 @@ def register(data):
     profile.add_new_data(data, id)
 
     return "register success"
+
+def refresh_token(current_user):
+    access_token = jwt.encode({
+        'id':current_user,
+        "exp": datetime.utcnow() + timedelta(minutes = 30)
+    }, app.config["SECRET_KEY"])
+    
+    return access_token

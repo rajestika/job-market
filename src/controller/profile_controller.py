@@ -32,3 +32,12 @@ def get_profile(current_user):
         "data":profile.get_profile_by_id(current_user)
     })
     return response
+
+@profile_blueprint.get("/refresh")
+@token_required
+def refresh(current_user):
+    response = make_response({
+        "message":"token refreshed",
+        "data":profile_service.refresh_token(current_user)
+    })
+    return response
