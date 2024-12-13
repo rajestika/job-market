@@ -7,7 +7,7 @@ def get_job_list():
     record = cursor.fetchall()
     return record
 
-def get_job(job_name):
+def get_job_by_job_name(job_name):
     cursor.execute(sql_query.FETCH_JOB_BY_JOB_NAME_QUERY, (job_name,))
 
     record = cursor.fetchone()
@@ -25,16 +25,10 @@ def add_application(data, current_user):
     connection.commit()
     return
 
-def get_job_name(job_id):
+def get_job_name_by_job_id(job_id):
     cursor.execute(sql_query.FETCH_JOB_NAME_BY_JOB_ID_QUERY, (job_id,))
 
     record = cursor.fetchone()
-    return record
-
-def get_job_id():
-    cursor.execute(sql_query.FETCH_JOB_ID_QUERY)
-
-    record = cursor.fetchall()
     return record
 
 def get_job_ids_by_profile_id(profile_id):
@@ -61,25 +55,25 @@ def get_job_and_hr_name(job_id):
     return record
 
 def get_applicants_by_job_id(job_id):
-    cursor.execute(sql_query.FETCH_APPLICANTS_BY_JOB_ID, (job_id,))
+    cursor.execute(sql_query.FETCH_APPLICANTS_BY_JOB_ID_QUERY, (job_id,))
     
     record = cursor.fetchall()
     return record
 
 def update_application_status(job_id, applicant_id, job_status):
     if(job_status == "review"):
-        cursor.execute(sql_query.UPDATE_STATUS_QUERY, (job_status, job_id, applicant_id))
+        cursor.execute(sql_query.UPDATE_APPLICATION_STATUS_QUERY, (job_status, job_id, applicant_id))
 
         connection.commit()
         return
     
     if(job_status == "accept"):
-        cursor.execute(sql_query.UPDATE_STATUS_QUERY, (job_status, job_id, applicant_id))
+        cursor.execute(sql_query.UPDATE_APPLICATION_STATUS_QUERY, (job_status, job_id, applicant_id))
 
         connection.commit()
         return
 
-    cursor.execute(sql_query.UPDATE_STATUS_QUERY, (job_status, job_id, applicant_id))
+    cursor.execute(sql_query.UPDATE_APPLICATION_STATUS_QUERY, (job_status, job_id, applicant_id))
 
     connection.commit()
     return

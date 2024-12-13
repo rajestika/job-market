@@ -14,7 +14,7 @@ def login(data):
     if(util.check_none_in_array([username, password])):
         raise exception.InputDataNull
 
-    username_result = profile.get_data_based_on_username(username)
+    username_result = profile.get_profile_by_username(username)
 
     if(username_result is None):
         raise exception.DataNotFound("username not found")
@@ -22,7 +22,7 @@ def login(data):
     if(not check_password_hash(username_result["password"], password)):
         raise exception.PasswordIncorrect
     
-    job_result = profile.get_job(username_result["id"])
+    job_result = profile.get_job_by_profile_id(username_result["id"])
     
     access_token = jwt.encode({
         'id':username_result["id"],
@@ -62,7 +62,7 @@ def register(data):
     if(util.check_none_in_array([name, username, password, is_hr])):
         raise exception.InputDataNull
     
-    username_result = profile.get_data_based_on_username(username)
+    username_result = profile.get_profile_by_username(username)
 
     if(username_result):
         raise exception.DataAlreadyExist("username already exist")
@@ -70,7 +70,7 @@ def register(data):
     id = str(uuid.uuid1())
     data["password"] = generate_password_hash(data["password"])
 
-    profile.add_new_data(data, id)
+    profile.add_new_profile(data, id)
 
     return "register success"
 

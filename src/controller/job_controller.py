@@ -45,9 +45,20 @@ def show_detail_job_id(job_id):
         }, 200)
     return response
 
-@job_blueprint.get("/jobs/<int:job_id>/applicant/<int:applicant_id>/<JobStatus:job_status>")
+@job_blueprint.get("/jobs/<int:job_id>/applicants")
+def applicants(job_id):
+    if (job_id is None):
+        raise exception.InputDataNull
+    
+    response = make_response({
+        "message":"request success",
+        "data":job_service.applicants(job_id)
+        }, 200)
+    return response
+
+@job_blueprint.get("/jobs/<int:job_id>/applicants/<string:applicant_id>/<JobStatus:job_status>")
 @token_required
-def review(job_id, applicant_id, job_status):
+def review(current_user, job_id, applicant_id, job_status):
     if(check_none_in_array([job_id, applicant_id, job_status])):
         raise exception.InputDataNull
 
