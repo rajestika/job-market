@@ -6,7 +6,7 @@ INSERT_PROFILE_QUERY = "INSERT INTO profile (id, name, username, password, is_hr
 
 FETCH_PROFILE_BY_ID_QUERY = "SELECT p.id, p.name, p.username, p.is_hr from profile p where p.id = %s"
 
-FETCH_ALL_JOB_QUERY = "SELECT j.name as job_name, j.description as desc, j.gaji from job j"
+FETCH_ALL_JOB_QUERY = "SELECT j.id as job_id, j.name as job_name, j.description as desc, j.gaji from job j"
 
 FETCH_JOB_BY_JOB_NAME_QUERY = "SELECT j.name, j.description as desc, j.gaji from job j where j.name = %s"
 
@@ -27,3 +27,5 @@ FETCH_JOB_AND_HR_NAME_BY_JOB_ID = "SELECT j.name, j.description, j.gaji, p.name 
 FETCH_APPLICANTS_BY_JOB_ID_QUERY = "SELECT p.name, p.id, pj.status from profile_job pj join profile p on p.id = pj.profile_id where pj.job_id = %s"
 
 UPDATE_APPLICATION_STATUS_QUERY = "UPDATE profile_job set status = %s where job_id = %s and profile_id = %s"
+
+FETCH_JOB_BY_HR_ID = "SELECT j.id from job j where j.hr_id = %s"

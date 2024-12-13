@@ -966,3 +966,1140 @@
 2024-12-13 18:22:20,580 - INFO -  * Restarting with stat
 2024-12-13 18:22:21,060 - WARNING -  * Debugger is active!
 2024-12-13 18:22:21,065 - INFO -  * Debugger PIN: 259-659-296
+2024-12-13 18:24:17,558 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-13 18:24:17,588 - INFO -  * Restarting with stat
+2024-12-13 18:24:18,027 - WARNING -  * Debugger is active!
+2024-12-13 18:24:18,030 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 00:41:48,631 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-14 00:41:48,631 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-14 00:41:48,634 - INFO -  * Restarting with stat
+2024-12-14 00:41:49,059 - WARNING -  * Debugger is active!
+2024-12-14 00:41:49,062 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 00:42:05,508 - INFO - 127.0.0.1 - - [14/Dec/2024 00:42:05] "POST /login HTTP/1.1" 200 -
+2024-12-14 00:42:31,366 - INFO - 127.0.0.1 - - [14/Dec/2024 00:42:31] "[33mPOST /jobs/apply HTTP/1.1[0m" 404 -
+2024-12-14 00:42:38,792 - INFO - 127.0.0.1 - - [14/Dec/2024 00:42:38] "[35m[1mPOST /jobs/apply HTTP/1.1[0m" 201 -
+2024-12-14 00:43:31,289 - INFO - 127.0.0.1 - - [14/Dec/2024 00:43:31] "[31m[1mPOST /jobs/add HTTP/1.1[0m" 401 -
+2024-12-14 00:43:36,697 - INFO - 127.0.0.1 - - [14/Dec/2024 00:43:36] "[31m[1mPOST /jobs/add HTTP/1.1[0m" 401 -
+2024-12-14 00:44:00,548 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 00:44:00,591 - INFO -  * Restarting with stat
+2024-12-14 00:44:01,174 - WARNING -  * Debugger is active!
+2024-12-14 00:44:01,177 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 00:44:01,629 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 00:44:01,664 - INFO -  * Restarting with stat
+2024-12-14 00:44:02,235 - WARNING -  * Debugger is active!
+2024-12-14 00:44:02,238 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 00:44:03,865 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 00:44:03,921 - INFO -  * Restarting with stat
+2024-12-14 00:44:04,455 - WARNING -  * Debugger is active!
+2024-12-14 00:44:04,461 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 00:44:06,089 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 00:44:06,127 - INFO -  * Restarting with stat
+2024-12-14 00:44:06,613 - WARNING -  * Debugger is active!
+2024-12-14 00:44:06,616 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 00:44:09,409 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 00:44:09,448 - INFO -  * Restarting with stat
+2024-12-14 00:44:09,896 - WARNING -  * Debugger is active!
+2024-12-14 00:44:09,901 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 00:44:14,002 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 00:44:14,039 - INFO -  * Restarting with stat
+2024-12-14 00:44:14,539 - WARNING -  * Debugger is active!
+2024-12-14 00:44:14,541 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 00:44:25,930 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\controller\\job_controller.py', reloading
+2024-12-14 00:44:25,960 - INFO -  * Restarting with stat
+2024-12-14 00:44:26,407 - WARNING -  * Debugger is active!
+2024-12-14 00:44:26,409 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 00:44:45,133 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 00:44:45,172 - INFO -  * Restarting with stat
+2024-12-14 00:44:45,857 - WARNING -  * Debugger is active!
+2024-12-14 00:44:45,860 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 00:47:18,135 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 00:47:18,163 - INFO -  * Restarting with stat
+2024-12-14 00:47:18,604 - WARNING -  * Debugger is active!
+2024-12-14 00:47:18,607 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 00:50:40,657 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\repository\\sql_query.py', reloading
+2024-12-14 00:50:40,692 - INFO -  * Restarting with stat
+2024-12-14 00:50:41,192 - WARNING -  * Debugger is active!
+2024-12-14 00:50:41,198 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 00:50:47,738 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\repository\\sql_query.py', reloading
+2024-12-14 00:50:47,772 - INFO -  * Restarting with stat
+2024-12-14 00:50:48,265 - WARNING -  * Debugger is active!
+2024-12-14 00:50:48,270 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 00:50:49,886 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\repository\\sql_query.py', reloading
+2024-12-14 00:50:49,923 - INFO -  * Restarting with stat
+2024-12-14 00:50:50,482 - WARNING -  * Debugger is active!
+2024-12-14 00:50:50,486 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 00:50:55,735 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\repository\\sql_query.py', reloading
+2024-12-14 00:50:55,771 - INFO -  * Restarting with stat
+2024-12-14 00:50:56,253 - WARNING -  * Debugger is active!
+2024-12-14 00:50:56,256 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 00:51:03,921 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\repository\\sql_query.py', reloading
+2024-12-14 00:51:03,950 - INFO -  * Restarting with stat
+2024-12-14 00:51:04,413 - WARNING -  * Debugger is active!
+2024-12-14 00:51:04,417 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 00:51:09,720 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\repository\\sql_query.py', reloading
+2024-12-14 00:51:09,770 - INFO -  * Restarting with stat
+2024-12-14 00:51:10,293 - WARNING -  * Debugger is active!
+2024-12-14 00:51:10,297 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 00:51:11,874 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\repository\\sql_query.py', reloading
+2024-12-14 00:51:11,910 - INFO -  * Restarting with stat
+2024-12-14 00:51:12,368 - WARNING -  * Debugger is active!
+2024-12-14 00:51:12,371 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 00:51:24,933 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\repository\\sql_query.py', reloading
+2024-12-14 00:51:24,967 - INFO -  * Restarting with stat
+2024-12-14 00:51:25,430 - WARNING -  * Debugger is active!
+2024-12-14 00:51:25,433 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 00:51:29,533 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\repository\\sql_query.py', reloading
+2024-12-14 00:51:29,569 - INFO -  * Restarting with stat
+2024-12-14 00:51:30,029 - WARNING -  * Debugger is active!
+2024-12-14 00:51:30,033 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 00:51:30,411 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\repository\\sql_query.py', reloading
+2024-12-14 00:51:30,445 - INFO -  * Restarting with stat
+2024-12-14 00:51:30,904 - WARNING -  * Debugger is active!
+2024-12-14 00:51:30,908 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 00:51:37,427 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\repository\\sql_query.py', reloading
+2024-12-14 00:51:37,462 - INFO -  * Restarting with stat
+2024-12-14 00:51:37,920 - WARNING -  * Debugger is active!
+2024-12-14 00:51:37,924 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 00:51:46,886 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\repository\\sql_query.py', reloading
+2024-12-14 00:51:46,922 - INFO -  * Restarting with stat
+2024-12-14 00:51:47,386 - WARNING -  * Debugger is active!
+2024-12-14 00:51:47,389 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 00:51:52,699 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\repository\\sql_query.py', reloading
+2024-12-14 00:51:52,733 - INFO -  * Restarting with stat
+2024-12-14 00:51:53,301 - WARNING -  * Debugger is active!
+2024-12-14 00:51:53,304 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 00:51:56,103 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\repository\\sql_query.py', reloading
+2024-12-14 00:51:56,139 - INFO -  * Restarting with stat
+2024-12-14 00:51:56,664 - WARNING -  * Debugger is active!
+2024-12-14 00:51:56,668 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 00:52:10,469 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\repository\\job.py', reloading
+2024-12-14 00:52:10,505 - INFO -  * Restarting with stat
+2024-12-14 00:52:11,004 - WARNING -  * Debugger is active!
+2024-12-14 00:52:11,009 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 00:52:16,311 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\repository\\job.py', reloading
+2024-12-14 00:52:16,351 - INFO -  * Restarting with stat
+2024-12-14 00:52:16,800 - WARNING -  * Debugger is active!
+2024-12-14 00:52:16,805 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 00:52:23,231 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\repository\\job.py', reloading
+2024-12-14 00:52:23,269 - INFO -  * Restarting with stat
+2024-12-14 00:52:23,723 - WARNING -  * Debugger is active!
+2024-12-14 00:52:23,726 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 00:52:26,626 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\repository\\job.py', reloading
+2024-12-14 00:52:26,660 - INFO -  * Restarting with stat
+2024-12-14 00:52:27,158 - WARNING -  * Debugger is active!
+2024-12-14 00:52:27,161 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 00:52:33,642 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\repository\\job.py', reloading
+2024-12-14 00:52:33,680 - INFO -  * Restarting with stat
+2024-12-14 00:52:34,134 - WARNING -  * Debugger is active!
+2024-12-14 00:52:34,138 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 00:52:35,762 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\repository\\job.py', reloading
+2024-12-14 00:52:35,797 - INFO -  * Restarting with stat
+2024-12-14 00:52:36,265 - WARNING -  * Debugger is active!
+2024-12-14 00:52:36,269 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 00:53:04,972 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 00:53:05,029 - INFO -  * Restarting with stat
+2024-12-14 00:53:05,607 - WARNING -  * Debugger is active!
+2024-12-14 00:53:05,612 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 00:53:07,264 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 00:53:07,316 - INFO -  * Restarting with stat
+2024-12-14 00:53:07,850 - WARNING -  * Debugger is active!
+2024-12-14 00:53:07,855 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 00:53:15,616 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 00:53:15,647 - INFO -  * Restarting with stat
+2024-12-14 00:53:16,135 - WARNING -  * Debugger is active!
+2024-12-14 00:53:16,141 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 00:53:26,442 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 00:53:26,477 - INFO -  * Restarting with stat
+2024-12-14 00:53:27,093 - WARNING -  * Debugger is active!
+2024-12-14 00:53:27,098 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 00:53:31,156 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 00:53:31,194 - INFO -  * Restarting with stat
+2024-12-14 00:53:31,673 - WARNING -  * Debugger is active!
+2024-12-14 00:53:31,676 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 00:53:41,780 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 00:53:41,821 - INFO -  * Restarting with stat
+2024-12-14 00:53:42,331 - WARNING -  * Debugger is active!
+2024-12-14 00:53:42,334 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 00:53:42,722 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 00:53:42,759 - INFO -  * Restarting with stat
+2024-12-14 00:53:43,225 - WARNING -  * Debugger is active!
+2024-12-14 00:53:43,228 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 00:53:52,153 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 00:53:52,186 - INFO -  * Restarting with stat
+2024-12-14 00:53:52,671 - WARNING -  * Debugger is active!
+2024-12-14 00:53:52,674 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 00:54:40,804 - INFO - 127.0.0.1 - - [14/Dec/2024 00:54:40] "POST /login HTTP/1.1" 200 -
+2024-12-14 00:55:15,919 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\controller\\job_controller.py', reloading
+2024-12-14 00:55:15,960 - INFO -  * Restarting with stat
+2024-12-14 00:55:16,481 - WARNING -  * Debugger is active!
+2024-12-14 00:55:16,485 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 00:55:24,268 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\controller\\job_controller.py', reloading
+2024-12-14 00:55:24,306 - INFO -  * Restarting with stat
+2024-12-14 00:55:24,930 - WARNING -  * Debugger is active!
+2024-12-14 00:55:24,935 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 00:55:30,223 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\controller\\job_controller.py', reloading
+2024-12-14 00:55:30,263 - INFO -  * Restarting with stat
+2024-12-14 00:55:30,760 - WARNING -  * Debugger is active!
+2024-12-14 00:55:30,765 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 00:55:39,778 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 00:55:39,813 - INFO -  * Restarting with stat
+2024-12-14 00:55:40,299 - WARNING -  * Debugger is active!
+2024-12-14 00:55:40,302 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 00:55:45,605 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 00:55:45,640 - INFO -  * Restarting with stat
+2024-12-14 00:55:46,120 - WARNING -  * Debugger is active!
+2024-12-14 00:55:46,125 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 00:55:47,746 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 00:55:47,792 - INFO -  * Restarting with stat
+2024-12-14 00:55:48,305 - WARNING -  * Debugger is active!
+2024-12-14 00:55:48,308 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 00:55:54,830 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 00:55:54,876 - INFO -  * Restarting with stat
+2024-12-14 00:55:55,391 - WARNING -  * Debugger is active!
+2024-12-14 00:55:55,396 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 00:56:05,764 - INFO - 127.0.0.1 - - [14/Dec/2024 00:56:05] "[35m[1mGET /jobs/2/applicants HTTP/1.1[0m" 500 -
+2024-12-14 00:56:09,906 - INFO - 127.0.0.1 - - [14/Dec/2024 00:56:09] "[35m[1mGET /jobs/3/applicants HTTP/1.1[0m" 500 -
+2024-12-14 00:56:53,636 - INFO - 127.0.0.1 - - [14/Dec/2024 00:56:53] "[35m[1mGET /jobs/3/applicants HTTP/1.1[0m" 500 -
+2024-12-14 00:58:57,223 - INFO - 127.0.0.1 - - [14/Dec/2024 00:58:57] "[31m[1mGET /jobs/3/applicants HTTP/1.1[0m" 401 -
+2024-12-14 00:59:05,275 - INFO - 127.0.0.1 - - [14/Dec/2024 00:59:05] "[31m[1mGET /jobs/3/applicants HTTP/1.1[0m" 401 -
+2024-12-14 00:59:17,416 - INFO - 127.0.0.1 - - [14/Dec/2024 00:59:17] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2024-12-14 00:59:25,663 - INFO - 127.0.0.1 - - [14/Dec/2024 00:59:25] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2024-12-14 00:59:35,560 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-14 00:59:35,560 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-14 00:59:35,561 - INFO -  * Restarting with stat
+2024-12-14 00:59:36,001 - WARNING -  * Debugger is active!
+2024-12-14 00:59:36,004 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 00:59:42,244 - INFO - 127.0.0.1 - - [14/Dec/2024 00:59:42] "POST /login HTTP/1.1" 200 -
+2024-12-14 00:59:52,375 - INFO - 127.0.0.1 - - [14/Dec/2024 00:59:52] "[35m[1mGET /jobs/3/applicants HTTP/1.1[0m" 500 -
+2024-12-14 01:01:06,574 - INFO - 127.0.0.1 - - [14/Dec/2024 01:01:06] "[31m[1mPOST /jobs/apply HTTP/1.1[0m" 401 -
+2024-12-14 01:01:08,261 - INFO - 127.0.0.1 - - [14/Dec/2024 01:01:08] "[31m[1mPOST /jobs/apply HTTP/1.1[0m" 401 -
+2024-12-14 01:01:21,271 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\exception\\exception.py', reloading
+2024-12-14 01:01:21,318 - INFO -  * Restarting with stat
+2024-12-14 01:01:21,867 - WARNING -  * Debugger is active!
+2024-12-14 01:01:21,873 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:01:22,177 - INFO - 127.0.0.1 - - [14/Dec/2024 01:01:22] "POST /jobs/apply HTTP/1.1" 200 -
+2024-12-14 01:01:37,422 - INFO - 127.0.0.1 - - [14/Dec/2024 01:01:37] "[31m[1mPOST /jobs/apply HTTP/1.1[0m" 401 -
+2024-12-14 01:01:43,372 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\exception\\exception.py', reloading
+2024-12-14 01:01:43,438 - INFO -  * Restarting with stat
+2024-12-14 01:01:43,952 - WARNING -  * Debugger is active!
+2024-12-14 01:01:43,956 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:01:44,776 - INFO - 127.0.0.1 - - [14/Dec/2024 01:01:44] "[31m[1mPOST /jobs/apply HTTP/1.1[0m" 401 -
+2024-12-14 01:01:51,311 - INFO - 127.0.0.1 - - [14/Dec/2024 01:01:51] "[35m[1mGET /jobs/3/applicants HTTP/1.1[0m" 500 -
+2024-12-14 01:03:15,525 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:03:15,564 - INFO -  * Restarting with stat
+2024-12-14 01:03:16,070 - WARNING -  * Debugger is active!
+2024-12-14 01:03:16,074 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:03:20,178 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:03:20,217 - INFO -  * Restarting with stat
+2024-12-14 01:03:20,686 - WARNING -  * Debugger is active!
+2024-12-14 01:03:20,691 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:03:33,620 - INFO - 127.0.0.1 - - [14/Dec/2024 01:03:33] "[35m[1mGET /jobs/3/applicants HTTP/1.1[0m" 500 -
+2024-12-14 01:04:05,486 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\controller\\job_controller.py', reloading
+2024-12-14 01:04:05,565 - INFO -  * Restarting with stat
+2024-12-14 01:04:06,033 - WARNING -  * Debugger is active!
+2024-12-14 01:04:06,037 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 01:04:07,617 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\controller\\job_controller.py', reloading
+2024-12-14 01:04:07,697 - INFO -  * Restarting with stat
+2024-12-14 01:04:08,183 - WARNING -  * Debugger is active!
+2024-12-14 01:04:08,186 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 01:04:22,197 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:04:22,230 - INFO -  * Restarting with stat
+2024-12-14 01:04:22,807 - WARNING -  * Debugger is active!
+2024-12-14 01:04:22,811 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:04:24,410 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:04:24,448 - INFO -  * Restarting with stat
+2024-12-14 01:04:24,956 - WARNING -  * Debugger is active!
+2024-12-14 01:04:24,959 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:04:30,250 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:04:30,288 - INFO -  * Restarting with stat
+2024-12-14 01:04:30,805 - WARNING -  * Debugger is active!
+2024-12-14 01:04:30,809 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:04:32,189 - INFO - 127.0.0.1 - - [14/Dec/2024 01:04:32] "GET /jobs/3/applicants HTTP/1.1" 200 -
+2024-12-14 01:04:40,260 - INFO - 127.0.0.1 - - [14/Dec/2024 01:04:40] "GET /jobs/3/applicants HTTP/1.1" 200 -
+2024-12-14 01:04:59,672 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\controller\\job_controller.py', reloading
+2024-12-14 01:04:59,706 - INFO -  * Restarting with stat
+2024-12-14 01:05:00,161 - WARNING -  * Debugger is active!
+2024-12-14 01:05:00,165 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:05:04,230 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\controller\\job_controller.py', reloading
+2024-12-14 01:05:04,264 - INFO -  * Restarting with stat
+2024-12-14 01:05:04,761 - WARNING -  * Debugger is active!
+2024-12-14 01:05:04,764 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:05:06,396 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\controller\\job_controller.py', reloading
+2024-12-14 01:05:06,430 - INFO -  * Restarting with stat
+2024-12-14 01:05:06,896 - WARNING -  * Debugger is active!
+2024-12-14 01:05:06,900 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:05:08,516 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\controller\\job_controller.py', reloading
+2024-12-14 01:05:08,551 - INFO -  * Restarting with stat
+2024-12-14 01:05:09,013 - WARNING -  * Debugger is active!
+2024-12-14 01:05:09,018 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:05:11,880 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\controller\\job_controller.py', reloading
+2024-12-14 01:05:11,916 - INFO -  * Restarting with stat
+2024-12-14 01:05:12,386 - WARNING -  * Debugger is active!
+2024-12-14 01:05:12,389 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:05:17,621 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\controller\\job_controller.py', reloading
+2024-12-14 01:05:17,677 - INFO -  * Restarting with stat
+2024-12-14 01:05:18,191 - WARNING -  * Debugger is active!
+2024-12-14 01:05:18,195 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:06:00,127 - INFO - 127.0.0.1 - - [14/Dec/2024 01:06:00] "[31m[1mGET /jobs/2/applicants/1db30225-b60c-11ef-b9fa-c89402a9598b/accept HTTP/1.1[0m" 401 -
+2024-12-14 01:06:17,887 - INFO - 127.0.0.1 - - [14/Dec/2024 01:06:17] "[35m[1mGET /jobs/2/applicants/1db30225-b60c-11ef-b9fa-c89402a9598b/accept HTTP/1.1[0m" 500 -
+2024-12-14 01:06:21,900 - INFO - 127.0.0.1 - - [14/Dec/2024 01:06:21] "[31m[1mGET /jobs/3/applicants/1db30225-b60c-11ef-b9fa-c89402a9598b/accept HTTP/1.1[0m" 401 -
+2024-12-14 01:06:24,642 - INFO - 127.0.0.1 - - [14/Dec/2024 01:06:24] "[31m[1mGET /jobs/3/applicants/1db30225-b60c-11ef-b9fa-c89402a9598b/accept HTTP/1.1[0m" 401 -
+2024-12-14 01:06:39,211 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-14 01:06:39,211 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-14 01:06:39,213 - INFO -  * Restarting with stat
+2024-12-14 01:06:39,688 - WARNING -  * Debugger is active!
+2024-12-14 01:06:39,691 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:06:46,237 - INFO - 127.0.0.1 - - [14/Dec/2024 01:06:46] "[35m[1mGET /jobs/3/applicants/1db30225-b60c-11ef-b9fa-c89402a9598b/accept HTTP/1.1[0m" 500 -
+2024-12-14 01:07:10,991 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:07:11,042 - INFO -  * Restarting with stat
+2024-12-14 01:07:11,593 - WARNING -  * Debugger is active!
+2024-12-14 01:07:11,597 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:07:13,140 - INFO - 127.0.0.1 - - [14/Dec/2024 01:07:13] "GET /jobs/3/applicants/1db30225-b60c-11ef-b9fa-c89402a9598b/accept HTTP/1.1" 200 -
+2024-12-14 01:07:16,993 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:07:17,034 - INFO -  * Restarting with stat
+2024-12-14 01:07:17,531 - WARNING -  * Debugger is active!
+2024-12-14 01:07:17,535 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:07:26,436 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:07:26,478 - INFO -  * Restarting with stat
+2024-12-14 01:07:27,019 - WARNING -  * Debugger is active!
+2024-12-14 01:07:27,022 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:07:33,607 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:07:33,647 - INFO -  * Restarting with stat
+2024-12-14 01:07:34,173 - WARNING -  * Debugger is active!
+2024-12-14 01:07:34,177 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:07:34,432 - INFO - 127.0.0.1 - - [14/Dec/2024 01:07:34] "GET /jobs/3/applicants/1db30225-b60c-11ef-b9fa-c89402a9598b/accept HTTP/1.1" 200 -
+2024-12-14 01:07:40,777 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:07:40,815 - INFO -  * Restarting with stat
+2024-12-14 01:07:41,307 - WARNING -  * Debugger is active!
+2024-12-14 01:07:41,311 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:07:44,208 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:07:44,250 - INFO -  * Restarting with stat
+2024-12-14 01:07:44,703 - WARNING -  * Debugger is active!
+2024-12-14 01:07:44,707 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:08:44,080 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\controller\\job_controller.py', reloading
+2024-12-14 01:08:44,120 - INFO -  * Restarting with stat
+2024-12-14 01:08:44,574 - WARNING -  * Debugger is active!
+2024-12-14 01:08:44,577 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 01:08:47,420 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\controller\\job_controller.py', reloading
+2024-12-14 01:08:47,455 - INFO -  * Restarting with stat
+2024-12-14 01:08:47,898 - WARNING -  * Debugger is active!
+2024-12-14 01:08:47,901 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:09:00,547 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:09:00,587 - INFO -  * Restarting with stat
+2024-12-14 01:09:01,093 - WARNING -  * Debugger is active!
+2024-12-14 01:09:01,096 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:09:06,420 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:09:06,453 - INFO -  * Restarting with stat
+2024-12-14 01:09:06,927 - WARNING -  * Debugger is active!
+2024-12-14 01:09:06,931 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:09:14,702 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:09:14,743 - INFO -  * Restarting with stat
+2024-12-14 01:09:15,216 - WARNING -  * Debugger is active!
+2024-12-14 01:09:15,219 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 01:09:16,855 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:09:16,892 - INFO -  * Restarting with stat
+2024-12-14 01:09:17,369 - WARNING -  * Debugger is active!
+2024-12-14 01:09:17,374 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 01:09:22,625 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:09:22,669 - INFO -  * Restarting with stat
+2024-12-14 01:09:23,239 - WARNING -  * Debugger is active!
+2024-12-14 01:09:23,245 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:09:24,876 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:09:24,916 - INFO -  * Restarting with stat
+2024-12-14 01:09:25,374 - WARNING -  * Debugger is active!
+2024-12-14 01:09:25,377 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:09:26,967 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:09:26,998 - INFO -  * Restarting with stat
+2024-12-14 01:09:27,490 - WARNING -  * Debugger is active!
+2024-12-14 01:09:27,493 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:09:34,021 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:09:34,054 - INFO -  * Restarting with stat
+2024-12-14 01:09:34,544 - WARNING -  * Debugger is active!
+2024-12-14 01:09:34,548 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:09:34,925 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:09:34,974 - INFO -  * Restarting with stat
+2024-12-14 01:09:35,516 - WARNING -  * Debugger is active!
+2024-12-14 01:09:35,520 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:09:41,242 - INFO - 127.0.0.1 - - [14/Dec/2024 01:09:41] "GET /jobs/3/applicants/1db30225-b60c-11ef-b9fa-c89402a9598b/accept HTTP/1.1" 200 -
+2024-12-14 01:09:50,025 - INFO - 127.0.0.1 - - [14/Dec/2024 01:09:50] "POST /login HTTP/1.1" 200 -
+2024-12-14 01:09:59,861 - INFO - 127.0.0.1 - - [14/Dec/2024 01:09:59] "[31m[1mGET /jobs/3/applicants/1db30225-b60c-11ef-b9fa-c89402a9598b/accept HTTP/1.1[0m" 401 -
+2024-12-14 01:10:10,697 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:10:10,734 - INFO -  * Restarting with stat
+2024-12-14 01:10:11,206 - WARNING -  * Debugger is active!
+2024-12-14 01:10:11,209 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:10:12,844 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:10:12,882 - INFO -  * Restarting with stat
+2024-12-14 01:10:13,378 - WARNING -  * Debugger is active!
+2024-12-14 01:10:13,383 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 01:10:14,976 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:10:15,014 - INFO -  * Restarting with stat
+2024-12-14 01:10:15,510 - WARNING -  * Debugger is active!
+2024-12-14 01:10:15,513 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 01:10:21,984 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:10:22,017 - INFO -  * Restarting with stat
+2024-12-14 01:10:22,585 - WARNING -  * Debugger is active!
+2024-12-14 01:10:22,589 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 01:10:26,590 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:10:26,624 - INFO -  * Restarting with stat
+2024-12-14 01:10:27,104 - WARNING -  * Debugger is active!
+2024-12-14 01:10:27,107 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 01:10:27,529 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:10:27,564 - INFO -  * Restarting with stat
+2024-12-14 01:10:28,042 - WARNING -  * Debugger is active!
+2024-12-14 01:10:28,047 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 01:10:32,126 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:10:32,166 - INFO -  * Restarting with stat
+2024-12-14 01:10:32,689 - WARNING -  * Debugger is active!
+2024-12-14 01:10:32,694 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 01:10:39,324 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:10:39,355 - INFO -  * Restarting with stat
+2024-12-14 01:10:39,963 - WARNING -  * Debugger is active!
+2024-12-14 01:10:39,967 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 01:10:45,225 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:10:45,261 - INFO -  * Restarting with stat
+2024-12-14 01:10:45,723 - WARNING -  * Debugger is active!
+2024-12-14 01:10:45,729 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 01:10:52,232 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:10:52,267 - INFO -  * Restarting with stat
+2024-12-14 01:10:52,750 - WARNING -  * Debugger is active!
+2024-12-14 01:10:52,753 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 01:11:00,448 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:11:00,484 - INFO -  * Restarting with stat
+2024-12-14 01:11:01,091 - WARNING -  * Debugger is active!
+2024-12-14 01:11:01,096 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 01:11:03,936 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:11:03,972 - INFO -  * Restarting with stat
+2024-12-14 01:11:04,545 - WARNING -  * Debugger is active!
+2024-12-14 01:11:04,549 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 01:11:07,360 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:11:07,394 - INFO -  * Restarting with stat
+2024-12-14 01:11:07,861 - WARNING -  * Debugger is active!
+2024-12-14 01:11:07,865 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 01:11:10,680 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:11:10,718 - INFO -  * Restarting with stat
+2024-12-14 01:11:11,177 - WARNING -  * Debugger is active!
+2024-12-14 01:11:11,182 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 01:11:11,564 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:11:11,598 - INFO -  * Restarting with stat
+2024-12-14 01:11:12,200 - WARNING -  * Debugger is active!
+2024-12-14 01:11:12,204 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 01:11:15,063 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:11:15,097 - INFO -  * Restarting with stat
+2024-12-14 01:11:15,557 - WARNING -  * Debugger is active!
+2024-12-14 01:11:15,562 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 01:11:17,189 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:11:17,222 - INFO -  * Restarting with stat
+2024-12-14 01:11:17,716 - WARNING -  * Debugger is active!
+2024-12-14 01:11:17,720 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 01:11:19,334 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:11:19,376 - INFO -  * Restarting with stat
+2024-12-14 01:11:19,855 - WARNING -  * Debugger is active!
+2024-12-14 01:11:19,860 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 01:11:21,513 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:11:21,543 - INFO -  * Restarting with stat
+2024-12-14 01:11:22,004 - WARNING -  * Debugger is active!
+2024-12-14 01:11:22,008 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:11:24,811 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:11:24,850 - INFO -  * Restarting with stat
+2024-12-14 01:11:25,393 - WARNING -  * Debugger is active!
+2024-12-14 01:11:25,398 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:11:27,242 - INFO - 127.0.0.1 - - [14/Dec/2024 01:11:27] "[31m[1mGET /jobs/3/applicants/1db30225-b60c-11ef-b9fa-c89402a9598b/accept HTTP/1.1[0m" 401 -
+2024-12-14 01:11:37,601 - INFO - 127.0.0.1 - - [14/Dec/2024 01:11:37] "POST /login HTTP/1.1" 200 -
+2024-12-14 01:11:51,793 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:11:51,834 - INFO -  * Restarting with stat
+2024-12-14 01:11:52,286 - WARNING -  * Debugger is active!
+2024-12-14 01:11:52,291 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:11:57,581 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:11:57,631 - INFO -  * Restarting with stat
+2024-12-14 01:11:58,158 - WARNING -  * Debugger is active!
+2024-12-14 01:11:58,162 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:11:58,522 - INFO - 127.0.0.1 - - [14/Dec/2024 01:11:58] "POST /login HTTP/1.1" 200 -
+2024-12-14 01:12:17,328 - INFO - 127.0.0.1 - - [14/Dec/2024 01:12:17] "[35m[1mGET /jobs/3/applicants/1db30225-b60c-11ef-b9fa-c89402a9598b/accept HTTP/1.1[0m" 500 -
+2024-12-14 01:12:52,946 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:12:52,981 - INFO -  * Restarting with stat
+2024-12-14 01:12:53,452 - WARNING -  * Debugger is active!
+2024-12-14 01:12:53,454 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:13:02,471 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:13:02,508 - INFO -  * Restarting with stat
+2024-12-14 01:13:03,034 - WARNING -  * Debugger is active!
+2024-12-14 01:13:03,037 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:13:03,309 - INFO - 127.0.0.1 - - [14/Dec/2024 01:13:03] "GET /jobs/3/applicants/1db30225-b60c-11ef-b9fa-c89402a9598b/accept HTTP/1.1" 200 -
+2024-12-14 01:13:40,590 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:13:40,633 - INFO -  * Restarting with stat
+2024-12-14 01:13:41,195 - WARNING -  * Debugger is active!
+2024-12-14 01:13:41,199 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:13:41,638 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:13:41,686 - INFO -  * Restarting with stat
+2024-12-14 01:13:42,201 - WARNING -  * Debugger is active!
+2024-12-14 01:13:42,206 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:13:42,450 - INFO - 127.0.0.1 - - [14/Dec/2024 01:13:42] "GET /jobs/3/applicants/1db30225-b60c-11ef-b9fa-c89402a9598b/accept HTTP/1.1" 200 -
+2024-12-14 01:13:51,424 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:13:51,473 - INFO -  * Restarting with stat
+2024-12-14 01:13:52,109 - WARNING -  * Debugger is active!
+2024-12-14 01:13:52,113 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:13:52,368 - INFO - 127.0.0.1 - - [14/Dec/2024 01:13:52] "GET /jobs/3/applicants/1db30225-b60c-11ef-b9fa-c89402a9598b/accept HTTP/1.1" 200 -
+2024-12-14 01:14:29,468 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\repository\\sql_query.py', reloading
+2024-12-14 01:14:29,506 - INFO -  * Restarting with stat
+2024-12-14 01:14:30,119 - WARNING -  * Debugger is active!
+2024-12-14 01:14:30,123 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:15:33,558 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:15:33,599 - INFO -  * Restarting with stat
+2024-12-14 01:15:34,101 - WARNING -  * Debugger is active!
+2024-12-14 01:15:34,105 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:15:35,777 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:15:35,834 - INFO -  * Restarting with stat
+2024-12-14 01:15:36,355 - WARNING -  * Debugger is active!
+2024-12-14 01:15:36,360 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:15:37,625 - INFO - 127.0.0.1 - - [14/Dec/2024 01:15:37] "[35m[1mGET /jobs/3/applicants/1db30225-b60c-11ef-b9fa-c89402a9598b/accept HTTP/1.1[0m" 500 -
+2024-12-14 01:16:13,827 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:16:13,872 - INFO -  * Restarting with stat
+2024-12-14 01:16:14,384 - WARNING -  * Debugger is active!
+2024-12-14 01:16:14,388 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:16:14,841 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:16:14,886 - INFO -  * Restarting with stat
+2024-12-14 01:16:15,337 - WARNING -  * Debugger is active!
+2024-12-14 01:16:15,341 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:16:17,011 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:16:17,048 - INFO -  * Restarting with stat
+2024-12-14 01:16:17,560 - WARNING -  * Debugger is active!
+2024-12-14 01:16:17,564 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:16:20,370 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:16:20,401 - INFO -  * Restarting with stat
+2024-12-14 01:16:20,902 - WARNING -  * Debugger is active!
+2024-12-14 01:16:20,906 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:16:22,591 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:16:22,622 - INFO -  * Restarting with stat
+2024-12-14 01:16:23,081 - WARNING -  * Debugger is active!
+2024-12-14 01:16:23,084 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:16:24,661 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:16:24,698 - INFO -  * Restarting with stat
+2024-12-14 01:16:25,300 - WARNING -  * Debugger is active!
+2024-12-14 01:16:25,304 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:16:26,902 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:16:26,938 - INFO -  * Restarting with stat
+2024-12-14 01:16:27,447 - WARNING -  * Debugger is active!
+2024-12-14 01:16:27,452 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:16:27,904 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:16:27,949 - INFO -  * Restarting with stat
+2024-12-14 01:16:28,448 - WARNING -  * Debugger is active!
+2024-12-14 01:16:28,453 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:16:32,386 - INFO - 127.0.0.1 - - [14/Dec/2024 01:16:32] "[35m[1mGET /jobs/3/applicants/1db30225-b60c-11ef-b9fa-c89402a9598b/accept HTTP/1.1[0m" 500 -
+2024-12-14 01:16:32,690 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:16:32,741 - INFO -  * Restarting with stat
+2024-12-14 01:16:33,371 - WARNING -  * Debugger is active!
+2024-12-14 01:16:33,375 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:16:37,348 - INFO - 127.0.0.1 - - [14/Dec/2024 01:16:37] "GET /jobs/3/applicants/1db30225-b60c-11ef-b9fa-c89402a9598b/accept HTTP/1.1" 200 -
+2024-12-14 01:17:00,932 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:17:00,969 - INFO -  * Restarting with stat
+2024-12-14 01:17:01,452 - WARNING -  * Debugger is active!
+2024-12-14 01:17:01,457 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 01:17:03,123 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:17:03,155 - INFO -  * Restarting with stat
+2024-12-14 01:17:03,622 - WARNING -  * Debugger is active!
+2024-12-14 01:17:03,626 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:17:08,883 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:17:08,917 - INFO -  * Restarting with stat
+2024-12-14 01:17:09,381 - WARNING -  * Debugger is active!
+2024-12-14 01:17:09,384 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:17:15,845 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:17:15,887 - INFO -  * Restarting with stat
+2024-12-14 01:17:16,372 - WARNING -  * Debugger is active!
+2024-12-14 01:17:16,375 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:17:16,747 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:17:16,784 - INFO -  * Restarting with stat
+2024-12-14 01:17:17,231 - WARNING -  * Debugger is active!
+2024-12-14 01:17:17,236 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 01:17:18,846 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:17:18,889 - INFO -  * Restarting with stat
+2024-12-14 01:17:19,519 - WARNING -  * Debugger is active!
+2024-12-14 01:17:19,523 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:17:20,111 - INFO - 127.0.0.1 - - [14/Dec/2024 01:17:20] "GET /jobs/3/applicants/1db30225-b60c-11ef-b9fa-c89402a9598b/accept HTTP/1.1" 200 -
+2024-12-14 01:17:27,271 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:17:27,303 - INFO -  * Restarting with stat
+2024-12-14 01:17:27,805 - WARNING -  * Debugger is active!
+2024-12-14 01:17:27,809 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:17:28,224 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:17:28,266 - INFO -  * Restarting with stat
+2024-12-14 01:17:28,708 - WARNING -  * Debugger is active!
+2024-12-14 01:17:28,711 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:17:30,357 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:17:30,397 - INFO -  * Restarting with stat
+2024-12-14 01:17:30,856 - WARNING -  * Debugger is active!
+2024-12-14 01:17:30,860 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:17:33,712 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:17:33,768 - INFO -  * Restarting with stat
+2024-12-14 01:17:34,244 - WARNING -  * Debugger is active!
+2024-12-14 01:17:34,249 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:17:39,499 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:17:39,536 - INFO -  * Restarting with stat
+2024-12-14 01:17:40,004 - WARNING -  * Debugger is active!
+2024-12-14 01:17:40,007 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:17:41,655 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:17:41,697 - INFO -  * Restarting with stat
+2024-12-14 01:17:42,162 - WARNING -  * Debugger is active!
+2024-12-14 01:17:42,167 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:17:43,807 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:17:43,844 - INFO -  * Restarting with stat
+2024-12-14 01:17:44,314 - WARNING -  * Debugger is active!
+2024-12-14 01:17:44,318 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:17:54,608 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:17:54,639 - INFO -  * Restarting with stat
+2024-12-14 01:17:55,134 - WARNING -  * Debugger is active!
+2024-12-14 01:17:55,137 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:17:57,994 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:17:58,029 - INFO -  * Restarting with stat
+2024-12-14 01:17:58,608 - WARNING -  * Debugger is active!
+2024-12-14 01:17:58,611 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:18:00,140 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:18:00,183 - INFO -  * Restarting with stat
+2024-12-14 01:18:00,674 - WARNING -  * Debugger is active!
+2024-12-14 01:18:00,677 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:18:02,007 - INFO - 127.0.0.1 - - [14/Dec/2024 01:18:02] "[35m[1mGET /jobs/3/applicants/1db30225-b60c-11ef-b9fa-c89402a9598b/accept HTTP/1.1[0m" 500 -
+2024-12-14 01:18:02,370 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:18:02,428 - INFO -  * Restarting with stat
+2024-12-14 01:18:03,034 - WARNING -  * Debugger is active!
+2024-12-14 01:18:03,037 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:18:13,361 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:18:13,406 - INFO -  * Restarting with stat
+2024-12-14 01:18:13,890 - WARNING -  * Debugger is active!
+2024-12-14 01:18:13,893 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:18:17,960 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:18:17,996 - INFO -  * Restarting with stat
+2024-12-14 01:18:18,456 - WARNING -  * Debugger is active!
+2024-12-14 01:18:18,459 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:18:25,011 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:18:25,063 - INFO -  * Restarting with stat
+2024-12-14 01:18:25,591 - WARNING -  * Debugger is active!
+2024-12-14 01:18:25,594 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:18:25,839 - INFO - 127.0.0.1 - - [14/Dec/2024 01:18:25] "GET /jobs/3/applicants/1db30225-b60c-11ef-b9fa-c89402a9598b/accept HTTP/1.1" 200 -
+2024-12-14 01:18:58,292 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\repository\\job.py', reloading
+2024-12-14 01:18:58,334 - INFO -  * Restarting with stat
+2024-12-14 01:18:58,883 - WARNING -  * Debugger is active!
+2024-12-14 01:18:58,888 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:19:04,194 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:19:04,231 - INFO -  * Restarting with stat
+2024-12-14 01:19:04,713 - WARNING -  * Debugger is active!
+2024-12-14 01:19:04,716 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:19:06,348 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:19:06,383 - INFO -  * Restarting with stat
+2024-12-14 01:19:06,917 - WARNING -  * Debugger is active!
+2024-12-14 01:19:06,921 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:19:07,810 - INFO - 127.0.0.1 - - [14/Dec/2024 01:19:07] "[31m[1mGET /jobs/3/applicants/1db30225-b60c-11ef-b9fa-c89402a9598b/accept HTTP/1.1[0m" 401 -
+2024-12-14 01:19:24,560 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:19:24,609 - INFO -  * Restarting with stat
+2024-12-14 01:19:25,117 - WARNING -  * Debugger is active!
+2024-12-14 01:19:25,120 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:19:26,786 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:19:26,826 - INFO -  * Restarting with stat
+2024-12-14 01:19:27,358 - WARNING -  * Debugger is active!
+2024-12-14 01:19:27,363 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 01:19:31,490 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:19:31,533 - INFO -  * Restarting with stat
+2024-12-14 01:19:32,014 - WARNING -  * Debugger is active!
+2024-12-14 01:19:32,018 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:19:32,418 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:19:32,466 - INFO -  * Restarting with stat
+2024-12-14 01:19:32,952 - WARNING -  * Debugger is active!
+2024-12-14 01:19:32,955 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:19:35,880 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:19:35,923 - INFO -  * Restarting with stat
+2024-12-14 01:19:36,490 - WARNING -  * Debugger is active!
+2024-12-14 01:19:36,494 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:19:36,759 - INFO - 127.0.0.1 - - [14/Dec/2024 01:19:36] "[31m[1mGET /jobs/3/applicants/1db30225-b60c-11ef-b9fa-c89402a9598b/accept HTTP/1.1[0m" 401 -
+2024-12-14 01:19:49,276 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:19:49,312 - INFO -  * Restarting with stat
+2024-12-14 01:19:49,786 - WARNING -  * Debugger is active!
+2024-12-14 01:19:49,791 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:19:52,646 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:19:52,680 - INFO -  * Restarting with stat
+2024-12-14 01:19:53,178 - WARNING -  * Debugger is active!
+2024-12-14 01:19:53,183 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:19:55,997 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:19:56,038 - INFO -  * Restarting with stat
+2024-12-14 01:19:56,524 - WARNING -  * Debugger is active!
+2024-12-14 01:19:56,529 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:19:59,361 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:19:59,400 - INFO -  * Restarting with stat
+2024-12-14 01:19:59,881 - WARNING -  * Debugger is active!
+2024-12-14 01:19:59,886 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 01:20:09,235 - INFO - 127.0.0.1 - - [14/Dec/2024 01:20:09] "[35m[1mGET /jobs/3/applicants/1db30225-b60c-11ef-b9fa-c89402a9598b/accept HTTP/1.1[0m" 500 -
+2024-12-14 01:20:13,664 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:20:13,706 - INFO -  * Restarting with stat
+2024-12-14 01:20:14,165 - WARNING -  * Debugger is active!
+2024-12-14 01:20:14,168 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:20:15,772 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:20:15,817 - INFO -  * Restarting with stat
+2024-12-14 01:20:16,398 - WARNING -  * Debugger is active!
+2024-12-14 01:20:16,402 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:20:18,064 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:20:18,106 - INFO -  * Restarting with stat
+2024-12-14 01:20:18,556 - WARNING -  * Debugger is active!
+2024-12-14 01:20:18,558 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:20:21,433 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:20:21,467 - INFO -  * Restarting with stat
+2024-12-14 01:20:21,964 - WARNING -  * Debugger is active!
+2024-12-14 01:20:21,968 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:20:23,589 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:20:23,636 - INFO -  * Restarting with stat
+2024-12-14 01:20:24,261 - WARNING -  * Debugger is active!
+2024-12-14 01:20:24,264 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:20:24,683 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:20:24,718 - INFO -  * Restarting with stat
+2024-12-14 01:20:25,189 - WARNING -  * Debugger is active!
+2024-12-14 01:20:25,193 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:20:28,064 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:20:28,121 - INFO -  * Restarting with stat
+2024-12-14 01:20:28,646 - WARNING -  * Debugger is active!
+2024-12-14 01:20:28,650 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:20:28,879 - INFO - 127.0.0.1 - - [14/Dec/2024 01:20:28] "[31m[1mGET /jobs/3/applicants/1db30225-b60c-11ef-b9fa-c89402a9598b/accept HTTP/1.1[0m" 401 -
+2024-12-14 01:20:58,685 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\repository\\sql_query.py', reloading
+2024-12-14 01:20:58,727 - INFO -  * Restarting with stat
+2024-12-14 01:20:59,286 - WARNING -  * Debugger is active!
+2024-12-14 01:20:59,291 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:21:07,164 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\repository\\job.py', reloading
+2024-12-14 01:21:07,206 - INFO -  * Restarting with stat
+2024-12-14 01:21:07,698 - WARNING -  * Debugger is active!
+2024-12-14 01:21:07,702 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:21:20,369 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\repository\\job.py', reloading
+2024-12-14 01:21:20,407 - INFO -  * Restarting with stat
+2024-12-14 01:21:20,874 - WARNING -  * Debugger is active!
+2024-12-14 01:21:20,877 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:21:22,505 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\repository\\job.py', reloading
+2024-12-14 01:21:22,557 - INFO -  * Restarting with stat
+2024-12-14 01:21:23,162 - WARNING -  * Debugger is active!
+2024-12-14 01:21:23,166 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:21:27,255 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\repository\\sql_query.py', reloading
+2024-12-14 01:21:27,297 - INFO -  * Restarting with stat
+2024-12-14 01:21:27,812 - WARNING -  * Debugger is active!
+2024-12-14 01:21:27,816 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:21:38,087 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:21:38,125 - INFO -  * Restarting with stat
+2024-12-14 01:21:38,618 - WARNING -  * Debugger is active!
+2024-12-14 01:21:38,622 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:21:45,138 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:21:45,182 - INFO -  * Restarting with stat
+2024-12-14 01:21:45,683 - WARNING -  * Debugger is active!
+2024-12-14 01:21:45,686 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:21:51,028 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:21:51,066 - INFO -  * Restarting with stat
+2024-12-14 01:21:51,618 - WARNING -  * Debugger is active!
+2024-12-14 01:21:51,622 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:21:51,869 - INFO - 127.0.0.1 - - [14/Dec/2024 01:21:51] "GET /jobs/3/applicants/1db30225-b60c-11ef-b9fa-c89402a9598b/accept HTTP/1.1" 200 -
+2024-12-14 01:22:00,629 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:22:00,670 - INFO -  * Restarting with stat
+2024-12-14 01:22:01,252 - WARNING -  * Debugger is active!
+2024-12-14 01:22:01,256 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:22:06,569 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:22:06,606 - INFO -  * Restarting with stat
+2024-12-14 01:22:07,081 - WARNING -  * Debugger is active!
+2024-12-14 01:22:07,084 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:22:08,737 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:22:08,786 - INFO -  * Restarting with stat
+2024-12-14 01:22:09,252 - WARNING -  * Debugger is active!
+2024-12-14 01:22:09,254 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:22:10,828 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:22:10,863 - INFO -  * Restarting with stat
+2024-12-14 01:22:11,377 - WARNING -  * Debugger is active!
+2024-12-14 01:22:11,381 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:22:13,840 - INFO - 127.0.0.1 - - [14/Dec/2024 01:22:13] "GET /jobs/3/applicants/1db30225-b60c-11ef-b9fa-c89402a9598b/accept HTTP/1.1" 200 -
+2024-12-14 01:22:22,831 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:22:22,880 - INFO -  * Restarting with stat
+2024-12-14 01:22:23,389 - WARNING -  * Debugger is active!
+2024-12-14 01:22:23,394 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:22:23,666 - INFO - 127.0.0.1 - - [14/Dec/2024 01:22:23] "GET /jobs/3/applicants/1db30225-b60c-11ef-b9fa-c89402a9598b/accept HTTP/1.1" 200 -
+2024-12-14 01:22:27,101 - INFO - 127.0.0.1 - - [14/Dec/2024 01:22:27] "[31m[1mGET /jobs/2/applicants/1db30225-b60c-11ef-b9fa-c89402a9598b/accept HTTP/1.1[0m" 401 -
+2024-12-14 01:22:43,463 - INFO - 127.0.0.1 - - [14/Dec/2024 01:22:43] "POST /login HTTP/1.1" 200 -
+2024-12-14 01:23:09,648 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:23:09,684 - INFO -  * Restarting with stat
+2024-12-14 01:23:10,156 - WARNING -  * Debugger is active!
+2024-12-14 01:23:10,160 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:23:14,208 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:23:14,244 - INFO -  * Restarting with stat
+2024-12-14 01:23:14,744 - WARNING -  * Debugger is active!
+2024-12-14 01:23:14,748 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:23:15,205 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:23:15,249 - INFO -  * Restarting with stat
+2024-12-14 01:23:15,734 - WARNING -  * Debugger is active!
+2024-12-14 01:23:15,737 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:23:18,759 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:23:18,799 - INFO -  * Restarting with stat
+2024-12-14 01:23:19,320 - WARNING -  * Debugger is active!
+2024-12-14 01:23:19,324 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:23:23,372 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:23:23,409 - INFO -  * Restarting with stat
+2024-12-14 01:23:23,933 - WARNING -  * Debugger is active!
+2024-12-14 01:23:23,937 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:23:34,208 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\controller\\job_controller.py', reloading
+2024-12-14 01:23:34,244 - INFO -  * Restarting with stat
+2024-12-14 01:23:34,871 - WARNING -  * Debugger is active!
+2024-12-14 01:23:34,875 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:23:37,734 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\controller\\job_controller.py', reloading
+2024-12-14 01:23:37,766 - INFO -  * Restarting with stat
+2024-12-14 01:23:38,274 - WARNING -  * Debugger is active!
+2024-12-14 01:23:38,277 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:23:38,740 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\controller\\job_controller.py', reloading
+2024-12-14 01:23:38,787 - INFO -  * Restarting with stat
+2024-12-14 01:23:39,376 - WARNING -  * Debugger is active!
+2024-12-14 01:23:39,382 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:23:40,391 - INFO - 127.0.0.1 - - [14/Dec/2024 01:23:40] "[35m[1mGET /jobs/3/applicants HTTP/1.1[0m" 500 -
+2024-12-14 01:24:08,691 - INFO - 127.0.0.1 - - [14/Dec/2024 01:24:08] "[31m[1mGET /jobs/3/applicants HTTP/1.1[0m" 401 -
+2024-12-14 01:24:12,891 - INFO - 127.0.0.1 - - [14/Dec/2024 01:24:12] "GET /jobs/2/applicants HTTP/1.1" 200 -
+2024-12-14 01:24:16,429 - INFO - 127.0.0.1 - - [14/Dec/2024 01:24:16] "[31m[1mGET /jobs/1/applicants HTTP/1.1[0m" 401 -
+2024-12-14 01:24:19,367 - INFO - 127.0.0.1 - - [14/Dec/2024 01:24:19] "GET /jobs/2/applicants HTTP/1.1" 200 -
+2024-12-14 01:25:05,551 - INFO - 127.0.0.1 - - [14/Dec/2024 01:25:05] "GET /jobs/3/applicants/1db30225-b60c-11ef-b9fa-c89402a9598b/accept HTTP/1.1" 200 -
+2024-12-14 01:25:08,857 - INFO - 127.0.0.1 - - [14/Dec/2024 01:25:08] "GET /jobs/3/applicants/1db30225-b60c-11ef-b9fa-c89402a9598b/accept HTTP/1.1" 200 -
+2024-12-14 01:25:12,862 - INFO - 127.0.0.1 - - [14/Dec/2024 01:25:12] "[31m[1mGET /jobs/3/applicants/1db30225-b60c-11ef-b9fa-c89402a9598b/accept HTTP/1.1[0m" 401 -
+2024-12-14 01:25:17,053 - INFO - 127.0.0.1 - - [14/Dec/2024 01:25:17] "GET /jobs/2/applicants/1db30225-b60c-11ef-b9fa-c89402a9598b/accept HTTP/1.1" 200 -
+2024-12-14 01:25:23,208 - INFO - 127.0.0.1 - - [14/Dec/2024 01:25:23] "[31m[1mGET /jobs/2/applicants/1db30225-b60c-11ef-b9fa-c89402a9598b/accept HTTP/1.1[0m" 401 -
+2024-12-14 01:25:27,389 - INFO - 127.0.0.1 - - [14/Dec/2024 01:25:27] "GET /jobs/3/applicants/1db30225-b60c-11ef-b9fa-c89402a9598b/accept HTTP/1.1" 200 -
+2024-12-14 01:25:44,404 - INFO - 127.0.0.1 - - [14/Dec/2024 01:25:44] "GET /jobs/3/applicants/1db30225-b60c-11ef-b9fa-c89402a9598b/accept HTTP/1.1" 200 -
+2024-12-14 01:25:48,241 - INFO - 127.0.0.1 - - [14/Dec/2024 01:25:48] "GET /jobs HTTP/1.1" 200 -
+2024-12-14 01:25:59,518 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-14 01:25:59,518 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-14 01:25:59,521 - INFO -  * Restarting with stat
+2024-12-14 01:26:00,127 - WARNING -  * Debugger is active!
+2024-12-14 01:26:00,130 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:26:05,106 - INFO - 127.0.0.1 - - [14/Dec/2024 01:26:05] "GET /jobs/3 HTTP/1.1" 200 -
+2024-12-14 01:26:10,593 - INFO - 127.0.0.1 - - [14/Dec/2024 01:26:10] "GET /jobs/2 HTTP/1.1" 200 -
+2024-12-14 01:27:03,358 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\controller\\job_controller.py', reloading
+2024-12-14 01:27:03,403 - INFO -  * Restarting with stat
+2024-12-14 01:27:03,926 - WARNING -  * Debugger is active!
+2024-12-14 01:27:03,930 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:27:09,264 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\controller\\job_controller.py', reloading
+2024-12-14 01:27:09,296 - INFO -  * Restarting with stat
+2024-12-14 01:27:09,764 - WARNING -  * Debugger is active!
+2024-12-14 01:27:09,768 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:27:13,853 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\controller\\job_controller.py', reloading
+2024-12-14 01:27:13,887 - INFO -  * Restarting with stat
+2024-12-14 01:27:14,361 - WARNING -  * Debugger is active!
+2024-12-14 01:27:14,365 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:27:34,390 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:27:34,424 - INFO -  * Restarting with stat
+2024-12-14 01:27:34,899 - WARNING -  * Debugger is active!
+2024-12-14 01:27:34,905 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:27:37,775 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:27:37,811 - INFO -  * Restarting with stat
+2024-12-14 01:27:38,279 - WARNING -  * Debugger is active!
+2024-12-14 01:27:38,282 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:27:43,576 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:27:43,613 - INFO -  * Restarting with stat
+2024-12-14 01:27:44,102 - WARNING -  * Debugger is active!
+2024-12-14 01:27:44,106 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:27:51,845 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:27:51,881 - INFO -  * Restarting with stat
+2024-12-14 01:27:52,344 - WARNING -  * Debugger is active!
+2024-12-14 01:27:52,347 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:27:55,258 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:27:55,303 - INFO -  * Restarting with stat
+2024-12-14 01:27:55,754 - WARNING -  * Debugger is active!
+2024-12-14 01:27:55,759 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:28:42,982 - INFO - 127.0.0.1 - - [14/Dec/2024 01:28:42] "[35m[1mGET /jobs/2 HTTP/1.1[0m" 500 -
+2024-12-14 01:29:00,287 - INFO - 127.0.0.1 - - [14/Dec/2024 01:29:00] "GET /jobs/2 HTTP/1.1" 200 -
+2024-12-14 01:29:03,851 - INFO - 127.0.0.1 - - [14/Dec/2024 01:29:03] "[31m[1mGET /jobs/1 HTTP/1.1[0m" 401 -
+2024-12-14 01:29:06,330 - INFO - 127.0.0.1 - - [14/Dec/2024 01:29:06] "GET /jobs/2 HTTP/1.1" 200 -
+2024-12-14 01:29:09,074 - INFO - 127.0.0.1 - - [14/Dec/2024 01:29:09] "[31m[1mGET /jobs/3 HTTP/1.1[0m" 401 -
+2024-12-14 01:29:11,571 - INFO - 127.0.0.1 - - [14/Dec/2024 01:29:11] "[31m[1mGET /jobs/4 HTTP/1.1[0m" 401 -
+2024-12-14 01:29:15,318 - INFO - 127.0.0.1 - - [14/Dec/2024 01:29:15] "[31m[1mGET /jobs/4 HTTP/1.1[0m" 401 -
+2024-12-14 01:29:46,750 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:29:46,789 - INFO -  * Restarting with stat
+2024-12-14 01:29:47,275 - WARNING -  * Debugger is active!
+2024-12-14 01:29:47,279 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:30:01,140 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:30:01,178 - INFO -  * Restarting with stat
+2024-12-14 01:30:01,647 - WARNING -  * Debugger is active!
+2024-12-14 01:30:01,652 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:30:04,498 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:30:04,537 - INFO -  * Restarting with stat
+2024-12-14 01:30:05,092 - WARNING -  * Debugger is active!
+2024-12-14 01:30:05,096 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:30:05,893 - INFO - 127.0.0.1 - - [14/Dec/2024 01:30:05] "[33mGET /jobs/4 HTTP/1.1[0m" 404 -
+2024-12-14 01:30:09,197 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:30:09,235 - INFO -  * Restarting with stat
+2024-12-14 01:30:09,832 - WARNING -  * Debugger is active!
+2024-12-14 01:30:09,835 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:30:11,390 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:30:11,427 - INFO -  * Restarting with stat
+2024-12-14 01:30:12,005 - WARNING -  * Debugger is active!
+2024-12-14 01:30:12,009 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:30:17,328 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:30:17,370 - INFO -  * Restarting with stat
+2024-12-14 01:30:17,850 - WARNING -  * Debugger is active!
+2024-12-14 01:30:17,853 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:30:19,464 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:30:19,501 - INFO -  * Restarting with stat
+2024-12-14 01:30:20,001 - WARNING -  * Debugger is active!
+2024-12-14 01:30:20,004 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:30:25,300 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:30:25,337 - INFO -  * Restarting with stat
+2024-12-14 01:30:25,813 - WARNING -  * Debugger is active!
+2024-12-14 01:30:25,817 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:30:28,630 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:30:28,663 - INFO -  * Restarting with stat
+2024-12-14 01:30:29,152 - WARNING -  * Debugger is active!
+2024-12-14 01:30:29,156 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:30:31,998 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:30:32,035 - INFO -  * Restarting with stat
+2024-12-14 01:30:32,533 - WARNING -  * Debugger is active!
+2024-12-14 01:30:32,536 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:30:32,973 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:30:33,005 - INFO -  * Restarting with stat
+2024-12-14 01:30:33,499 - WARNING -  * Debugger is active!
+2024-12-14 01:30:33,502 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:30:36,406 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:30:36,446 - INFO -  * Restarting with stat
+2024-12-14 01:30:36,918 - WARNING -  * Debugger is active!
+2024-12-14 01:30:36,921 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:30:38,585 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:30:38,616 - INFO -  * Restarting with stat
+2024-12-14 01:30:39,080 - WARNING -  * Debugger is active!
+2024-12-14 01:30:39,085 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:30:40,771 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:30:40,807 - INFO -  * Restarting with stat
+2024-12-14 01:30:41,314 - WARNING -  * Debugger is active!
+2024-12-14 01:30:41,317 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:30:51,512 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:30:51,552 - INFO -  * Restarting with stat
+2024-12-14 01:30:52,126 - WARNING -  * Debugger is active!
+2024-12-14 01:30:52,130 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:30:53,725 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:30:53,824 - INFO -  * Restarting with stat
+2024-12-14 01:30:54,461 - WARNING -  * Debugger is active!
+2024-12-14 01:30:54,464 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:30:54,851 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:30:54,895 - INFO -  * Restarting with stat
+2024-12-14 01:30:55,444 - WARNING -  * Debugger is active!
+2024-12-14 01:30:55,448 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:30:56,170 - INFO - 127.0.0.1 - - [14/Dec/2024 01:30:56] "[33mGET /jobs/4 HTTP/1.1[0m" 404 -
+2024-12-14 01:30:59,778 - INFO - 127.0.0.1 - - [14/Dec/2024 01:30:59] "GET /jobs/2 HTTP/1.1" 200 -
+2024-12-14 01:31:02,311 - INFO - 127.0.0.1 - - [14/Dec/2024 01:31:02] "[31m[1mGET /jobs/3 HTTP/1.1[0m" 401 -
+2024-12-14 01:31:06,802 - INFO - 127.0.0.1 - - [14/Dec/2024 01:31:06] "GET /jobs/2/applicants HTTP/1.1" 200 -
+2024-12-14 01:31:09,871 - INFO - 127.0.0.1 - - [14/Dec/2024 01:31:09] "[33mGET /jobs/4/applicants HTTP/1.1[0m" 404 -
+2024-12-14 01:31:14,710 - INFO - 127.0.0.1 - - [14/Dec/2024 01:31:14] "[31m[1mGET /jobs/3/applicants HTTP/1.1[0m" 401 -
+2024-12-14 01:31:20,331 - INFO - 127.0.0.1 - - [14/Dec/2024 01:31:20] "[31m[1mGET /jobs/1/applicants HTTP/1.1[0m" 401 -
+2024-12-14 01:31:23,562 - INFO - 127.0.0.1 - - [14/Dec/2024 01:31:23] "[31m[1mGET /jobs/3/applicants HTTP/1.1[0m" 401 -
+2024-12-14 01:31:26,387 - INFO - 127.0.0.1 - - [14/Dec/2024 01:31:26] "GET /jobs/2/applicants HTTP/1.1" 200 -
+2024-12-14 01:31:29,913 - INFO - 127.0.0.1 - - [14/Dec/2024 01:31:29] "GET /jobs/3/applicants/1db30225-b60c-11ef-b9fa-c89402a9598b/accept HTTP/1.1" 200 -
+2024-12-14 01:31:34,075 - INFO - 127.0.0.1 - - [14/Dec/2024 01:31:34] "[31m[1mGET /jobs/3/applicants/1db30225-b60c-11ef-b9fa-c89402a9598b/accept HTTP/1.1[0m" 401 -
+2024-12-14 01:31:36,839 - INFO - 127.0.0.1 - - [14/Dec/2024 01:31:36] "GET /jobs/2/applicants/1db30225-b60c-11ef-b9fa-c89402a9598b/accept HTTP/1.1" 200 -
+2024-12-14 01:31:41,080 - INFO - 127.0.0.1 - - [14/Dec/2024 01:31:41] "[33mGET /jobs/4/applicants/1db30225-b60c-11ef-b9fa-c89402a9598b/accept HTTP/1.1[0m" 404 -
+2024-12-14 01:32:22,339 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\repository\\sql_query.py', reloading
+2024-12-14 01:32:22,381 - INFO -  * Restarting with stat
+2024-12-14 01:32:22,854 - WARNING -  * Debugger is active!
+2024-12-14 01:32:22,857 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:32:35,166 - INFO - 127.0.0.1 - - [14/Dec/2024 01:32:35] "GET /jobs HTTP/1.1" 200 -
+2024-12-14 01:32:45,469 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\repository\\sql_query.py', reloading
+2024-12-14 01:32:45,512 - INFO -  * Restarting with stat
+2024-12-14 01:32:46,000 - WARNING -  * Debugger is active!
+2024-12-14 01:32:46,004 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:32:46,229 - INFO - 127.0.0.1 - - [14/Dec/2024 01:32:46] "GET /jobs HTTP/1.1" 200 -
+2024-12-14 01:33:23,741 - INFO - 127.0.0.1 - - [14/Dec/2024 01:33:23] "GET /jobs HTTP/1.1" 200 -
+2024-12-14 01:33:42,260 - INFO - 127.0.0.1 - - [14/Dec/2024 01:33:42] "[31m[1mPOST /jobs/add HTTP/1.1[0m" 401 -
+2024-12-14 01:33:49,240 - INFO - 127.0.0.1 - - [14/Dec/2024 01:33:49] "[35m[1mPOST /jobs/add HTTP/1.1[0m" 201 -
+2024-12-14 01:34:17,208 - INFO - 127.0.0.1 - - [14/Dec/2024 01:34:17] "GET /jobs/2/applicants HTTP/1.1" 200 -
+2024-12-14 01:34:21,739 - INFO - 127.0.0.1 - - [14/Dec/2024 01:34:21] "[31m[1mGET /jobs/4/applicants HTTP/1.1[0m" 401 -
+2024-12-14 01:34:28,505 - INFO - 127.0.0.1 - - [14/Dec/2024 01:34:28] "[31m[1mGET /jobs/4/applicants HTTP/1.1[0m" 401 -
+2024-12-14 01:34:32,302 - INFO - 127.0.0.1 - - [14/Dec/2024 01:34:32] "[31m[1mGET /jobs/3/applicants HTTP/1.1[0m" 401 -
+2024-12-14 01:34:47,540 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\repository\\job.py', reloading
+2024-12-14 01:34:47,581 - INFO -  * Restarting with stat
+2024-12-14 01:34:48,232 - WARNING -  * Debugger is active!
+2024-12-14 01:34:48,237 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:35:31,706 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:35:31,741 - INFO -  * Restarting with stat
+2024-12-14 01:35:32,244 - WARNING -  * Debugger is active!
+2024-12-14 01:35:32,246 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:35:38,778 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:35:38,815 - INFO -  * Restarting with stat
+2024-12-14 01:35:39,308 - WARNING -  * Debugger is active!
+2024-12-14 01:35:39,311 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:35:43,403 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:35:43,453 - INFO -  * Restarting with stat
+2024-12-14 01:35:43,968 - WARNING -  * Debugger is active!
+2024-12-14 01:35:43,971 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:35:50,801 - INFO - 127.0.0.1 - - [14/Dec/2024 01:35:50] "[35m[1mGET /jobs/2 HTTP/1.1[0m" 500 -
+2024-12-14 01:35:54,717 - INFO - 127.0.0.1 - - [14/Dec/2024 01:35:54] "[35m[1mGET /jobs/4 HTTP/1.1[0m" 500 -
+2024-12-14 01:36:28,968 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\controller\\job_controller.py', reloading
+2024-12-14 01:36:29,013 - INFO -  * Restarting with stat
+2024-12-14 01:36:29,477 - WARNING -  * Debugger is active!
+2024-12-14 01:36:29,480 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:36:31,175 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\controller\\job_controller.py', reloading
+2024-12-14 01:36:31,224 - INFO -  * Restarting with stat
+2024-12-14 01:36:31,797 - WARNING -  * Debugger is active!
+2024-12-14 01:36:31,800 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:36:32,618 - INFO - 127.0.0.1 - - [14/Dec/2024 01:36:32] "[35m[1mGET /jobs/4 HTTP/1.1[0m" 500 -
+2024-12-14 01:36:37,604 - INFO - 127.0.0.1 - - [14/Dec/2024 01:36:37] "[35m[1mGET /jobs/4 HTTP/1.1[0m" 500 -
+2024-12-14 01:36:39,492 - INFO - 127.0.0.1 - - [14/Dec/2024 01:36:39] "[35m[1mGET /jobs/4 HTTP/1.1[0m" 500 -
+2024-12-14 01:36:58,232 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:36:58,264 - INFO -  * Restarting with stat
+2024-12-14 01:36:58,742 - WARNING -  * Debugger is active!
+2024-12-14 01:36:58,745 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:37:10,468 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\controller\\job_controller.py', reloading
+2024-12-14 01:37:10,502 - INFO -  * Restarting with stat
+2024-12-14 01:37:11,099 - WARNING -  * Debugger is active!
+2024-12-14 01:37:11,104 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:37:22,621 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\controller\\job_controller.py', reloading
+2024-12-14 01:37:22,656 - INFO -  * Restarting with stat
+2024-12-14 01:37:23,268 - WARNING -  * Debugger is active!
+2024-12-14 01:37:23,271 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:37:26,128 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\controller\\job_controller.py', reloading
+2024-12-14 01:37:26,172 - INFO -  * Restarting with stat
+2024-12-14 01:37:26,669 - WARNING -  * Debugger is active!
+2024-12-14 01:37:26,672 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:37:35,770 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:37:35,820 - INFO -  * Restarting with stat
+2024-12-14 01:37:36,300 - WARNING -  * Debugger is active!
+2024-12-14 01:37:36,304 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:37:39,151 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:37:39,182 - INFO -  * Restarting with stat
+2024-12-14 01:37:39,635 - WARNING -  * Debugger is active!
+2024-12-14 01:37:39,639 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 01:37:41,230 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:37:41,266 - INFO -  * Restarting with stat
+2024-12-14 01:37:41,768 - WARNING -  * Debugger is active!
+2024-12-14 01:37:41,771 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:37:46,445 - INFO - 127.0.0.1 - - [14/Dec/2024 01:37:46] "[35m[1mGET /jobs/4 HTTP/1.1[0m" 500 -
+2024-12-14 01:37:49,654 - INFO - 127.0.0.1 - - [14/Dec/2024 01:37:49] "[35m[1mGET /jobs/2 HTTP/1.1[0m" 500 -
+2024-12-14 01:38:01,986 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:38:02,019 - INFO -  * Restarting with stat
+2024-12-14 01:38:02,510 - WARNING -  * Debugger is active!
+2024-12-14 01:38:02,513 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:38:05,283 - INFO - 127.0.0.1 - - [14/Dec/2024 01:38:05] "[35m[1mGET /jobs/2 HTTP/1.1[0m" 500 -
+2024-12-14 01:38:19,064 - INFO - 127.0.0.1 - - [14/Dec/2024 01:38:19] "[35m[1mGET /jobs/2 HTTP/1.1[0m" 500 -
+2024-12-14 01:38:30,359 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:38:30,395 - INFO -  * Restarting with stat
+2024-12-14 01:38:30,887 - WARNING -  * Debugger is active!
+2024-12-14 01:38:30,889 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 01:38:32,563 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:38:32,600 - INFO -  * Restarting with stat
+2024-12-14 01:38:33,069 - WARNING -  * Debugger is active!
+2024-12-14 01:38:33,074 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:38:34,241 - INFO - 127.0.0.1 - - [14/Dec/2024 01:38:34] "[35m[1mGET /jobs/2 HTTP/1.1[0m" 500 -
+2024-12-14 01:38:34,773 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:38:34,828 - INFO -  * Restarting with stat
+2024-12-14 01:38:35,387 - WARNING -  * Debugger is active!
+2024-12-14 01:38:35,391 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:38:41,948 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:38:41,984 - INFO -  * Restarting with stat
+2024-12-14 01:38:42,462 - WARNING -  * Debugger is active!
+2024-12-14 01:38:42,465 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:38:47,368 - INFO - 127.0.0.1 - - [14/Dec/2024 01:38:47] "GET /jobs/2 HTTP/1.1" 200 -
+2024-12-14 01:38:47,837 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:38:47,893 - INFO -  * Restarting with stat
+2024-12-14 01:38:48,423 - WARNING -  * Debugger is active!
+2024-12-14 01:38:48,429 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:39:02,250 - INFO - 127.0.0.1 - - [14/Dec/2024 01:39:02] "GET /jobs/2 HTTP/1.1" 200 -
+2024-12-14 01:39:39,233 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:39:39,271 - INFO -  * Restarting with stat
+2024-12-14 01:39:39,888 - WARNING -  * Debugger is active!
+2024-12-14 01:39:39,892 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 01:39:42,733 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:39:42,773 - INFO -  * Restarting with stat
+2024-12-14 01:39:43,241 - WARNING -  * Debugger is active!
+2024-12-14 01:39:43,248 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 01:39:49,745 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:39:49,780 - INFO -  * Restarting with stat
+2024-12-14 01:39:50,244 - WARNING -  * Debugger is active!
+2024-12-14 01:39:50,248 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 01:39:51,903 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:39:51,935 - INFO -  * Restarting with stat
+2024-12-14 01:39:52,381 - WARNING -  * Debugger is active!
+2024-12-14 01:39:52,386 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 01:39:58,860 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:39:58,896 - INFO -  * Restarting with stat
+2024-12-14 01:39:59,382 - WARNING -  * Debugger is active!
+2024-12-14 01:39:59,387 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 01:40:02,239 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:40:02,276 - INFO -  * Restarting with stat
+2024-12-14 01:40:02,770 - WARNING -  * Debugger is active!
+2024-12-14 01:40:02,773 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 01:40:04,333 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:40:04,368 - INFO -  * Restarting with stat
+2024-12-14 01:40:04,841 - WARNING -  * Debugger is active!
+2024-12-14 01:40:04,844 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 01:40:06,495 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:40:06,527 - INFO -  * Restarting with stat
+2024-12-14 01:40:07,004 - WARNING -  * Debugger is active!
+2024-12-14 01:40:07,007 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 01:40:08,609 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:40:08,644 - INFO -  * Restarting with stat
+2024-12-14 01:40:09,111 - WARNING -  * Debugger is active!
+2024-12-14 01:40:09,116 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 01:40:29,090 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:40:29,126 - INFO -  * Restarting with stat
+2024-12-14 01:40:29,623 - WARNING -  * Debugger is active!
+2024-12-14 01:40:29,630 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:40:39,778 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:40:39,812 - INFO -  * Restarting with stat
+2024-12-14 01:40:40,302 - WARNING -  * Debugger is active!
+2024-12-14 01:40:40,306 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:40:41,925 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:40:41,957 - INFO -  * Restarting with stat
+2024-12-14 01:40:42,434 - WARNING -  * Debugger is active!
+2024-12-14 01:40:42,439 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 01:40:46,511 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:40:46,548 - INFO -  * Restarting with stat
+2024-12-14 01:40:47,000 - WARNING -  * Debugger is active!
+2024-12-14 01:40:47,003 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 01:40:56,089 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:40:56,135 - INFO -  * Restarting with stat
+2024-12-14 01:40:56,632 - WARNING -  * Debugger is active!
+2024-12-14 01:40:56,635 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 01:41:05,628 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:41:05,660 - INFO -  * Restarting with stat
+2024-12-14 01:41:06,127 - WARNING -  * Debugger is active!
+2024-12-14 01:41:06,131 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 01:41:07,757 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:41:07,790 - INFO -  * Restarting with stat
+2024-12-14 01:41:08,262 - WARNING -  * Debugger is active!
+2024-12-14 01:41:08,265 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:41:19,671 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:41:19,730 - INFO -  * Restarting with stat
+2024-12-14 01:41:20,275 - WARNING -  * Debugger is active!
+2024-12-14 01:41:20,278 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:41:20,773 - INFO - 127.0.0.1 - - [14/Dec/2024 01:41:20] "GET /jobs/2 HTTP/1.1" 200 -
+2024-12-14 01:41:50,169 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:41:50,206 - INFO -  * Restarting with stat
+2024-12-14 01:41:50,697 - WARNING -  * Debugger is active!
+2024-12-14 01:41:50,701 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 01:41:52,336 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:41:52,372 - INFO -  * Restarting with stat
+2024-12-14 01:41:52,841 - WARNING -  * Debugger is active!
+2024-12-14 01:41:52,847 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 01:41:54,492 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:41:54,543 - INFO -  * Restarting with stat
+2024-12-14 01:41:55,078 - WARNING -  * Debugger is active!
+2024-12-14 01:41:55,084 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 01:41:56,652 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:41:56,700 - INFO -  * Restarting with stat
+2024-12-14 01:41:57,171 - WARNING -  * Debugger is active!
+2024-12-14 01:41:57,173 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 01:41:57,563 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:41:57,599 - INFO -  * Restarting with stat
+2024-12-14 01:41:58,076 - WARNING -  * Debugger is active!
+2024-12-14 01:41:58,082 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 01:42:00,939 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:42:00,986 - INFO -  * Restarting with stat
+2024-12-14 01:42:01,474 - WARNING -  * Debugger is active!
+2024-12-14 01:42:01,480 - INFO -  * Debugger PIN: 115-146-725
+2024-12-14 01:42:05,574 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:42:05,609 - INFO -  * Restarting with stat
+2024-12-14 01:42:06,148 - WARNING -  * Debugger is active!
+2024-12-14 01:42:06,152 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:42:10,670 - INFO - 127.0.0.1 - - [14/Dec/2024 01:42:10] "GET /jobs/2 HTTP/1.1" 200 -
+2024-12-14 01:42:14,225 - INFO - 127.0.0.1 - - [14/Dec/2024 01:42:14] "[31m[1mGET /jobs/3 HTTP/1.1[0m" 401 -
+2024-12-14 01:42:16,861 - INFO - 127.0.0.1 - - [14/Dec/2024 01:42:16] "GET /jobs/4 HTTP/1.1" 200 -
+2024-12-14 01:42:22,721 - INFO - 127.0.0.1 - - [14/Dec/2024 01:42:22] "[33mGET /jobs/5 HTTP/1.1[0m" 404 -
+2024-12-14 01:42:26,645 - INFO - 127.0.0.1 - - [14/Dec/2024 01:42:26] "GET /jobs/4 HTTP/1.1" 200 -
+2024-12-14 01:42:29,269 - INFO - 127.0.0.1 - - [14/Dec/2024 01:42:29] "[31m[1mGET /jobs/3 HTTP/1.1[0m" 401 -
+2024-12-14 01:42:33,068 - INFO - 127.0.0.1 - - [14/Dec/2024 01:42:33] "GET /jobs/2 HTTP/1.1" 200 -
+2024-12-14 01:42:52,354 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:42:52,407 - INFO -  * Restarting with stat
+2024-12-14 01:42:52,987 - WARNING -  * Debugger is active!
+2024-12-14 01:42:52,990 - INFO -  * Debugger PIN: 259-659-296
+2024-12-14 01:43:00,870 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\service\\job_service.py', reloading
+2024-12-14 01:43:00,912 - INFO -  * Restarting with stat
+2024-12-14 01:43:01,396 - WARNING -  * Debugger is active!
+2024-12-14 01:43:01,399 - INFO -  * Debugger PIN: 259-659-296

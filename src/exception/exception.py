@@ -17,3 +17,8 @@ class DataNotFound(Exception):
     def __init__(self, message='data not found'):
         self.message = message
         super().__init__(message)
+
+class Unauthorized(Exception):
+    def __init__(self, message='you are not authorized'):
+        self.message = message
+        super().__init__(message)

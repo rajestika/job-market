@@ -6,9 +6,12 @@ from apps.src.enum.enum import JobStatus
 def job_list():
     job_list_result = job.get_job_list()
     return job_list_result
-    
 
 def add_job(data, current_user):
+    is_hr = profile.get_profile_by_id(current_user)["is_hr"]
+    if (not is_hr):
+        raise exception.Unauthorized
+    
     name = data.get("job_name", None)
     desc = data.get("desc", None)
     gaji = data.get("gaji", None)
@@ -25,6 +28,10 @@ def add_job(data, current_user):
     return "job succesfully added"
 
 def application(data, current_user):
+    is_hr = profile.get_profile_by_id(current_user)["is_hr"]
+    if (is_hr):
+        raise exception.Unauthorized
+    
     job_id = data.get("job_id", None)
 
     if(not job_id):
@@ -42,20 +49,37 @@ def application(data, current_user):
     job.add_application(data, current_user)
     return "application success"
 
-def job_details(job_id):
+def job_details(current_user, job_id):
+    is_hr = profile.get_profile_by_id(current_user)["is_hr"]
+    if (not is_hr):
+        raise exception.Unauthorized
+    
     job_record = job.get_job_and_hr_name(job_id)
-
     if(job_record is None):
         raise exception.DataNotFound("job not found")
+    
+    hr_job = job.get_job_id_by_hr_id(current_user)
+    hr_job_id = [job["id"] for job in hr_job]
+    if (job_id not in hr_job_id):
+        raise exception.Unauthorized
 
     return {
             "job_information":job_record
     }
 
-def applicants(job_id):
+def applicants(current_user, job_id):
+    is_hr = profile.get_profile_by_id(current_user)["is_hr"]
+    if (not is_hr):
+        raise exception.Unauthorized
+    
     job_record = job.get_job_name_by_job_id(job_id)
     if(job_record is None):
         raise exception.DataNotFound("job not found")
+    
+    hr_job = job.get_job_id_by_hr_id(current_user)
+    hr_job_id = [job["id"] for job in hr_job]
+    if (job_id not in hr_job_id):
+        raise exception.Unauthorized
     
     applicants_record = job.get_applicants_by_job_id(job_id)
     
@@ -63,11 +87,19 @@ def applicants(job_id):
             "applicants":applicants_record
     }
 
-def review_application(job_id, applicant_id, job_status):
+def review_application(current_user, job_id, applicant_id, job_status):
+    is_hr = profile.get_profile_by_id(current_user)["is_hr"]
+    if (not is_hr):
+        raise exception.Unauthorized
+    
     job_record = job.get_job_and_hr_name(job_id)
-
     if(job_record is None):
         raise exception.DataNotFound("job not found")
+    
+    hr_job = job.get_job_id_by_hr_id(current_user)
+    hr_job_id = [job["id"] for job in hr_job]
+    if (job_id not in hr_job_id):
+        raise exception.Unauthorized
 
     applicants_record = job.get_applicants_by_job_id(job_id)
 

@@ -35,24 +35,26 @@ def apply_job(current_user):
     return response
 
 @job_blueprint.get("/jobs/<int:job_id>")
-def show_detail_job_id(job_id):
+@token_required
+def show_detail_job_id(current_user, job_id):
     if (job_id is None):
         raise exception.InputDataNull
     
     response = make_response({
         "message":"request success",
-        "data":job_service.job_details(job_id)
+        "data":job_service.job_details(current_user, job_id)
         }, 200)
     return response
 
 @job_blueprint.get("/jobs/<int:job_id>/applicants")
-def applicants(job_id):
+@token_required
+def applicants(current_user, job_id):
     if (job_id is None):
         raise exception.InputDataNull
     
     response = make_response({
         "message":"request success",
-        "data":job_service.applicants(job_id)
+        "data":job_service.applicants(current_user, job_id)
         }, 200)
     return response
 
@@ -63,6 +65,6 @@ def review(current_user, job_id, applicant_id, job_status):
         raise exception.InputDataNull
 
     response = make_response({
-        "message":job_service.review_application(job_id, applicant_id, job_status)
+        "message":job_service.review_application(current_user, job_id, applicant_id, job_status)
         }, 200)
     return response

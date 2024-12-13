@@ -77,3 +77,9 @@ def update_application_status(job_id, applicant_id, job_status):
 
     connection.commit()
     return
+
+def get_job_id_by_hr_id(hr_id):
+    cursor.execute(sql_query.FETCH_JOB_BY_HR_ID, (hr_id,))
+    
+    record = cursor.fetchall()
+    return record
