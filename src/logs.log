@@ -1,0 +1,32 @@
+2024-12-12 21:18:11 - INFO -  * Restarting with stat
+2024-12-12 21:18:14 - INFO -  * Restarting with stat
+2024-12-12 21:18:45 - INFO -  * Restarting with stat
+2024-12-12 21:18:45 - WARNING -  * Debugger is active!
+2024-12-12 21:18:45 - INFO -  * Debugger PIN: 259-659-296
+2024-12-12 21:18:58 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\main.py', reloading
+2024-12-12 21:18:58 - INFO -  * Restarting with stat
+2024-12-12 21:18:59 - INFO -  * Restarting with stat
+2024-12-12 21:18:59,543 - WARNING -  * Debugger is active!
+2024-12-12 21:18:59,547 - INFO -  * Debugger PIN: 259-659-296
+2024-12-12 21:19:18,630 - INFO - 127.0.0.1 - - [12/Dec/2024 21:19:18] "GET /jobs HTTP/1.1" 200 -
+2024-12-12 21:19:29,865 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-12 21:19:29,865 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-12 21:19:29,866 - INFO -  * Restarting with stat
+2024-12-12 21:19:30,285 - WARNING -  * Debugger is active!
+2024-12-12 21:19:30,288 - INFO -  * Debugger PIN: 259-659-296
+2024-12-12 21:19:38,348 - INFO - 127.0.0.1 - - [12/Dec/2024 21:19:38] "GET /jobs HTTP/1.1" 200 -
+2024-12-12 21:20:05,240 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-12 21:20:05,240 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-12 21:20:05,242 - INFO -  * Restarting with stat
+2024-12-12 21:20:05,663 - WARNING -  * Debugger is active!
+2024-12-12 21:20:05,667 - INFO -  * Debugger PIN: 259-659-296
+2024-12-12 21:23:42,613 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\controller\\job_controller.py', reloading
+2024-12-12 21:23:42,646 - INFO -  * Restarting with stat
+2024-12-12 21:23:43,104 - WARNING -  * Debugger is active!
+2024-12-12 21:23:43,107 - INFO -  * Debugger PIN: 259-659-296
+2024-12-12 21:24:17,691 - INFO -  * Detected change in 'C:\\PROJEKAN\\apps\\src\\controller\\job_controller.py', reloading
+2024-12-12 21:24:17,728 - INFO -  * Restarting with stat
+2024-12-12 21:24:18,181 - WARNING -  * Debugger is active!
+2024-12-12 21:24:18,185 - INFO -  * Debugger PIN: 259-659-296

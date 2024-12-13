@@ -3,6 +3,12 @@ import psycopg2
 import psycopg2.extras
 from apps.src.enum.enum import JobStatus, JobStatusConverter
 from apps.src.exception import exception_register
+import logging
+
+logger = logging.getLogger()
+logger.setLevel(logging.INFO)
+
+logFormatter = logging.basicConfig(filename='logs.log', format="%(asctime)s - %(levelname)s - %(message)s")
 
 app = Flask(__name__)
 
