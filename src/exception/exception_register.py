@@ -26,3 +26,8 @@ def register_exception(app):
         response.status_code = 404
         return response
     
+    @app.errorhandler(exception.Unauthorized)
+    def handle_unauthorized(e):
+        response = jsonify({"message": str(e)})
+        response.status_code = 401
+        return response
