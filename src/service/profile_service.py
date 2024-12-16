@@ -22,8 +22,6 @@ def login(data):
     if(not check_password_hash(username_result["password"], password)):
         raise exception.PasswordIncorrect
     
-    job_result = profile.get_job_by_profile_id(username_result["id"])
-    
     access_token = jwt.encode({
         'id':username_result["id"],
         "exp": datetime.utcnow() + timedelta(minutes = 30)
@@ -45,6 +43,8 @@ def login(data):
             "name":username_result["name"],
             "notification":f"{number_of_new_applicants['count']} new applicants"
         }
+    
+    job_result = profile.get_job_by_profile_id(username_result["id"])
     
     return {
             "access_token":access_token,
@@ -71,8 +71,39 @@ def register(data):
     data["password"] = generate_password_hash(data["password"])
 
     profile.add_new_profile(data, id)
+    
+    username_result = profile.get_profile_by_username(username)
 
-    return "register success"
+    access_token = jwt.encode({
+        'id':username_result["id"],
+        "exp": datetime.utcnow() + timedelta(minutes = 30)
+    }, app.config["SECRET_KEY"])
+
+    refresh_token = jwt.encode({
+        'id':username_result["id"],
+        "exp": datetime.utcnow() + timedelta(days = 30)
+    }, app.config["SECRET_KEY"])
+
+    if(username_result["is_hr"]):
+        number_of_new_applicants = job.get_number_of_new_applicants_by_hr_id(username_result["id"])
+        
+        job.update_is_notified_to_true_by_hr_id(username_result["id"])
+        
+        return {
+            "access_token":access_token,
+            "refresh_token":refresh_token,
+            "name":username_result["name"],
+            "notification":f"{number_of_new_applicants['count']} new applicants"
+        }
+    
+    job_result = profile.get_job_by_profile_id(username_result["id"])
+    
+    return {
+            "access_token":access_token,
+            "refresh_token":refresh_token,
+            "name":username_result["name"],
+            "job_applied":job_result
+        }
 
 def refresh_token(current_user):
     access_token = jwt.encode({

@@ -20,7 +20,8 @@ def register():
     data = request.get_json()
 
     response = make_response({
-        "message":profile_service.register(data)
+        "message":"register success",
+        "data":profile_service.register(data)
         }, 201)
     return response
 
